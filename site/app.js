@@ -21,6 +21,7 @@ const chapterHref = (id, params='') => `#/chapter/${encodeURIComponent(id)}${par
 const videoHref = id => `#/video/${encodeURIComponent(id)}`;
 const fileLink = (label,url,className='text-link',download=false) => `<a class="${className}" href="./${esc(url)}" target="_blank" rel="noopener"${download?' download':''}>${esc(label)} ${arrow}</a>`;
 let data, books, chapters, videos, currentRoute = '/', renderId = 0;
+const publicationRevision = new URL(import.meta.url).searchParams.get('v');
 const contentCache = new Map();
 let searchIndex;
 
@@ -145,7 +146,7 @@ async function renderChapter(id,params,token) {
 }
 function renderVideo(id) {
   const v=videos.get(id);if(!v)return renderNotFound();const c=chapters.get(v.chapter),b=books.get(c.book);
-  main.innerHTML=`<div class="page video-page">${breadcrumb([{text:'视频讲解',url:'#/videos'},{text:v.knowledge}])}${pageHead(`${c.id} · ${b.title}`,v.knowledge,v.title)}<div class="watch-layout"><div><video id="lesson-video" class="lesson-video" controls playsinline preload="metadata" poster="./${esc(v.poster)}"><source src="./${esc(v.url)}" type="video/mp4">${v.subtitle?.endsWith('.vtt')?`<track kind="subtitles" src="./${esc(v.subtitle)}" srclang="zh" label="中文">`:''}<p>浏览器无法直接播放，${fileLink('下载视频',v.url,'',true)}后观看。</p></video><div class="video-note"><span>音乐＋音效＋画面短字幕 · ${minutes(v.duration)} · 无旁白</span>${fileLink('下载视频',v.url,'text-link',true)}</div><div class="return-to-chapter"><div><span class="eyebrow">把视频接回教材</span><h2>${esc(c.title)}</h2><p>需要完整解释或下一步实践时，回到对应章节。</p></div><a class="button primary" href="${chapterHref(c.id)}">阅读 ${c.id} →</a></div></div><aside class="video-chapters"><h2>片内定位</h2><p>只回看当前需要的部分。</p><ol>${v.scenes.map((s,i)=>`<li><button type="button" data-seek="${s.start}"><time>${minutes(s.start)}</time><span>${esc(s.title||'片段 '+(i+1))}</span></button></li>`).join('')}</ol><small>观看记录不作为掌握证据。</small></aside></div>${footer()}</div>`;
+  main.innerHTML=`<div class="page video-page">${breadcrumb([{text:'视频讲解',url:'#/videos'},{text:v.knowledge}])}${pageHead(`${c.id} · ${b.title}`,v.knowledge,v.title)}<div class="watch-layout"><div><video id="lesson-video" class="lesson-video" controls playsinline preload="metadata" poster="./${esc(v.poster)}"><source src="./${esc(v.url)}" type="video/mp4">${v.subtitle && new URL(v.subtitle,location.href).pathname.endsWith('.vtt')?`<track kind="subtitles" src="./${esc(v.subtitle)}" srclang="zh" label="中文">`:''}<p>浏览器无法直接播放，${fileLink('下载视频',v.url,'',true)}后观看。</p></video><div class="video-note"><span>音乐＋音效＋画面短字幕 · ${minutes(v.duration)} · 无旁白</span>${fileLink('下载视频',v.url,'text-link',true)}</div><div class="return-to-chapter"><div><span class="eyebrow">把视频接回教材</span><h2>${esc(c.title)}</h2><p>需要完整解释或下一步实践时，回到对应章节。</p></div><a class="button primary" href="${chapterHref(c.id)}">阅读 ${c.id} →</a></div></div><aside class="video-chapters"><h2>片内定位</h2><p>只回看当前需要的部分。</p><ol>${v.scenes.map((s,i)=>`<li><button type="button" data-seek="${s.start}"><time>${minutes(s.start)}</time><span>${esc(s.title||'片段 '+(i+1))}</span></button></li>`).join('')}</ol><small>观看记录不作为掌握证据。</small></aside></div>${footer()}</div>`;
   const player=main.querySelector('video');
   main.querySelectorAll('[data-seek]').forEach(button=>button.addEventListener('click',()=>{
     player.currentTime=Number(button.dataset.seek);player.play().catch(()=>toast('点击视频的播放按钮即可继续。'));
@@ -182,7 +183,8 @@ async function route() {
   }catch(error){main.innerHTML=`<div class="page empty"><h1>这页暂时没有加载成功</h1><p>请刷新后重试，或先打开原册 PDF。</p>${chapter?fileLink('打开原册 PDF',chapter.pdf,'button primary'):''}<a class="button quiet" href="#/">返回首页</a></div>`;console.error(error);}
 }
 try {
-  const response=await fetch('./data/catalog.json');if(!response.ok)throw new Error('Cannot load catalog');data=await response.json();
+  const catalogUrl='./data/catalog.json'+(publicationRevision?'?v='+encodeURIComponent(publicationRevision):'');
+  const response=await fetch(catalogUrl,{cache:'no-cache'});if(!response.ok)throw new Error('Cannot load catalog');data=await response.json();
   books=new Map(data.books.map(b=>[b.id,b]));chapters=new Map(data.chapters.map(c=>[c.id,c]));videos=new Map(data.videos.map(v=>[v.id,v]));
   window.addEventListener('hashchange',route);await route();
 }catch(error){main.innerHTML='<div class="page empty"><h1>学习资料暂时没有加载成功</h1><p>请确认通过网站地址打开，然后刷新重试。</p><a class="button primary" href="./media/books/00.pdf">先阅读起始 PDF →</a></div>';console.error(error);}

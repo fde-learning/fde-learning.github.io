@@ -32,6 +32,8 @@ python scripts/validate_site.py --site site --report qa/validation.json
 
 ## 发布到 GitHub Pages
 
+本项目当前公开站点是 https://fde-learning.github.io/，发布仓库为 `fde-learning/fde-learning.github.io`。维护现有站点时，先核对远端与 Pages 地址；迁移前的账号仓库保留作历史来源。
+
 1. 将本仓库推送到自己的 GitHub 仓库 `main` 分支。
 2. 在仓库 **Settings → Pages → Build and deployment** 中选择 **GitHub Actions**。
 3. 运行 **Publish learning site** 工作流，成功后从 Pages 页面取得网址。
@@ -39,6 +41,8 @@ python scripts/validate_site.py --site site --report qa/validation.json
 发布根目录是 `site/`，地址和资源均支持 GitHub 项目站点的子路径。GitHub Actions 会先验证资源，再上传站点；不会在部署时读取作者电脑或生成新的教学视频。
 
 `site/media/` 包含当前公开的 PDF、视频、字幕及关系图。更新材料时同步更新 `site/data/` 中的资源清单，不直接修改旧校验记录来掩盖不一致。
+
+当前视频、海报及字幕链接带有文件内容标识，目录也会重新校验缓存。更新资源后应刷新目录清单与页面入口中的发布标识，保持播放器字幕识别和片内定位可用；这不等于主动清除 CDN 缓存，仍需读回线上文件验证。
 
 ## 维护范围
 

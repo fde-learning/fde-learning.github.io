@@ -1970,11 +1970,11 @@
       "chapter": "00",
       "title": "算出来了，为什么关掉后又找不到？",
       "knowledge": "结果保存",
-      "url": "media/videos/00-01.mp4",
-      "poster": "media/posters/00-01.jpg",
+      "url": "media/videos/00-01.mp4?v=88e8a3ec4ac4aac7",
+      "poster": "media/posters/00-01.jpg?v=177d93273055e2b0",
       "duration": 42,
-      "subtitle": "media/subtitles/00-01.vtt",
-      "subtitleDownload": "media/subtitles/00-01.srt",
+      "subtitle": "media/subtitles/00-01.vtt?v=09672fda3a6b3094",
+      "subtitleDownload": "media/subtitles/00-01.srt?v=4976fef47d46d08c",
       "scenes": [
         {
           "start": 0,
@@ -2008,18 +2008,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "88e8a3ec4ac4aac775f06e895fd2c1536ebe6435c58e59b00dd4dbe48c8922b1"
     },
     {
       "id": "A01-01",
       "chapter": "A01",
       "title": "看着2＋3，为什么运行出来的是9？",
       "knowledge": "运行文件",
-      "url": "media/videos/A01-01.mp4",
-      "poster": "media/posters/A01-01.jpg",
+      "url": "media/videos/A01-01.mp4?v=8742c57d70d06aab",
+      "poster": "media/posters/A01-01.jpg?v=6259b5ebb71c574e",
       "duration": 55,
-      "subtitle": "media/subtitles/A01-01.vtt",
-      "subtitleDownload": "media/subtitles/A01-01.srt",
+      "subtitle": "media/subtitles/A01-01.vtt?v=635d5e3728279c98",
+      "subtitleDownload": "media/subtitles/A01-01.srt?v=222a1e9ca344491a",
       "scenes": [
         {
           "start": 0,
@@ -2053,18 +2054,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "8742c57d70d06aab7b069978576757a4f219dc535c7370120873e587ec15d303"
     },
     {
       "id": "A02-02",
       "chapter": "A02",
       "title": "函数里显示了8，外面为什么拿不到8？",
       "knowledge": "返回与显示",
-      "url": "media/videos/A02-02.mp4",
-      "poster": "media/posters/A02-02.jpg",
+      "url": "media/videos/A02-02.mp4?v=535685084ab448b0",
+      "poster": "media/posters/A02-02.jpg?v=0bbf17605ffc26b4",
       "duration": 66,
-      "subtitle": "media/subtitles/A02-02.vtt",
-      "subtitleDownload": "media/subtitles/A02-02.srt",
+      "subtitle": "media/subtitles/A02-02.vtt?v=1845b157f28113e5",
+      "subtitleDownload": "media/subtitles/A02-02.srt?v=afd6f36e37b345f6",
       "scenes": [
         {
           "start": 0,
@@ -2103,18 +2105,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "535685084ab448b08fcfb4bad6f3d5fd97d0c4f63f114e9c87e0088e450b7298"
     },
     {
       "id": "A03-01",
       "chapter": "A03",
       "title": "前面已经判成负数，最后为什么变成了正数？",
       "knowledge": "条件分支",
-      "url": "media/videos/A03-01.mp4",
-      "poster": "media/posters/A03-01.jpg",
+      "url": "media/videos/A03-01.mp4?v=969849df2aeabc19",
+      "poster": "media/posters/A03-01.jpg?v=a8c3f4e3b7f3e67e",
       "duration": 81,
-      "subtitle": "media/subtitles/A03-01.vtt",
-      "subtitleDownload": "media/subtitles/A03-01.srt",
+      "subtitle": "media/subtitles/A03-01.vtt?v=1649f0ada689f564",
+      "subtitleDownload": "media/subtitles/A03-01.srt?v=8855d6a608a2b96e",
       "scenes": [
         {
           "start": 0.0,
@@ -2178,18 +2181,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "969849df2aeabc195ed63b7823eacbe25ca1321d3bedd5402a5e4fe8412da4fd"
     },
     {
       "id": "A04-01",
       "chapter": "A04",
       "title": "下一次数据从哪里来，循环又为什么停下？",
       "knowledge": "循环",
-      "url": "media/videos/A04-01.mp4",
-      "poster": "media/posters/A04-01.jpg",
+      "url": "media/videos/A04-01.mp4?v=110b6277239df633",
+      "poster": "media/posters/A04-01.jpg?v=24cf53f7724e42d2",
       "duration": 83,
-      "subtitle": "media/subtitles/A04-01.vtt",
-      "subtitleDownload": "media/subtitles/A04-01.srt",
+      "subtitle": "media/subtitles/A04-01.vtt?v=6d5096fb0fe0e789",
+      "subtitleDownload": "media/subtitles/A04-01.srt?v=f5e2332b2dd1b45b",
       "scenes": [
         {
           "start": 0.0,
@@ -2253,18 +2257,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "110b6277239df63303f384e2fe6537d148d5ffea2999a920ddc9f15f2fd5892f"
     },
     {
       "id": "A08-01",
       "chapter": "A08",
       "title": "重复保存一次，为什么文件从两行变成四行？",
       "knowledge": "文件写入",
-      "url": "media/videos/A08-01.mp4",
-      "poster": "media/posters/A08-01.jpg",
+      "url": "media/videos/A08-01.mp4?v=0f2b68653642bfdf",
+      "poster": "media/posters/A08-01.jpg?v=fd85babe46d25521",
       "duration": 75.5,
-      "subtitle": "media/subtitles/A08-01.vtt",
-      "subtitleDownload": "media/subtitles/A08-01.srt",
+      "subtitle": "media/subtitles/A08-01.vtt?v=64e2360fb386734d",
+      "subtitleDownload": "media/subtitles/A08-01.srt?v=74ea87037afc83e1",
       "scenes": [
         {
           "start": 0.0,
@@ -2323,18 +2328,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "0f2b68653642bfdf072bc19a9afb2c41f99a792fb5d958c74ad3eb1f0fcbd36f"
     },
     {
       "id": "A07-01",
       "chapter": "A07",
       "title": "正方形测对了，为什么长方形仍然算错？",
       "knowledge": "测试",
-      "url": "media/videos/A07-01.mp4",
-      "poster": "media/posters/A07-01.jpg",
+      "url": "media/videos/A07-01.mp4?v=60c0abda50d3dcb1",
+      "poster": "media/posters/A07-01.jpg?v=ecc81c290602181a",
       "duration": 78.7,
-      "subtitle": "media/subtitles/A07-01.vtt",
-      "subtitleDownload": "media/subtitles/A07-01.srt",
+      "subtitle": "media/subtitles/A07-01.vtt?v=ff541946a2ae2a6d",
+      "subtitleDownload": "media/subtitles/A07-01.srt?v=cab58ead47813799",
       "scenes": [
         {
           "start": 0.0,
@@ -2393,18 +2399,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "60c0abda50d3dcb18f52bc124a2c2c790ab1554015f66f0bf02accdde165943f"
     },
     {
       "id": "A09-01",
       "chapter": "A09",
       "title": "明明装过这个包，为什么当前程序仍然找不到？",
       "knowledge": "运行环境",
-      "url": "media/videos/A09-01.mp4",
-      "poster": "media/posters/A09-01.jpg",
+      "url": "media/videos/A09-01.mp4?v=fcc5886f202984d2",
+      "poster": "media/posters/A09-01.jpg?v=fd6af89f12771b62",
       "duration": 72.1,
-      "subtitle": "media/subtitles/A09-01.vtt",
-      "subtitleDownload": "media/subtitles/A09-01.srt",
+      "subtitle": "media/subtitles/A09-01.vtt?v=00f3b3cffd7f9243",
+      "subtitleDownload": "media/subtitles/A09-01.srt?v=fd7c65aec05a7910",
       "scenes": [
         {
           "start": 0.0,
@@ -2458,18 +2465,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "fcc5886f202984d2043fb15f9613ef7a292e0afa11f9615e0033ceeb11314a0c"
     },
     {
       "id": "B01-01",
       "chapter": "B01",
       "title": "本地的一段文字，怎样交给另一个程序计算？",
       "knowledge": "请求响应",
-      "url": "media/videos/B01-01.mp4",
-      "poster": "media/posters/B01-01.jpg",
+      "url": "media/videos/B01-01.mp4?v=0e2c2e4041033c40",
+      "poster": "media/posters/B01-01.jpg?v=599f8aef59583bee",
       "duration": 76.4,
-      "subtitle": "media/subtitles/B01-01.vtt",
-      "subtitleDownload": "media/subtitles/B01-01.srt",
+      "subtitle": "media/subtitles/B01-01.vtt?v=574db86cb3d7d004",
+      "subtitleDownload": "media/subtitles/B01-01.srt?v=aee44e4b6f679726",
       "scenes": [
         {
           "start": 0.0,
@@ -2543,18 +2551,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "0e2c2e4041033c40cef56a2ac21e5f66cf62873abababf1938a40e47325c1d03"
     },
     {
       "id": "B02-01",
       "chapter": "B02",
       "title": "请求没写Python函数名，服务怎么知道调用谁？",
       "knowledge": "路由校验",
-      "url": "media/videos/B02-01.mp4",
-      "poster": "media/posters/B02-01.jpg",
+      "url": "media/videos/B02-01.mp4?v=ef0a16796ac7f0c3",
+      "poster": "media/posters/B02-01.jpg?v=477b1542d2b0fff9",
       "duration": 96.5,
-      "subtitle": "media/subtitles/B02-01.vtt",
-      "subtitleDownload": "media/subtitles/B02-01.srt",
+      "subtitle": "media/subtitles/B02-01.vtt?v=0ee07f00570bd731",
+      "subtitleDownload": "media/subtitles/B02-01.srt?v=0a763caa91e9ea8c",
       "scenes": [
         {
           "start": 0.0,
@@ -2618,18 +2627,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "ef0a16796ac7f0c368df9e4c1a53806ea70fca60936659f6ef1611a1bc0519e4"
     },
     {
       "id": "B04-01",
       "chapter": "B04",
       "title": "图已经好了，网页怎么还在等？",
       "knowledge": "两段请求",
-      "url": "media/videos/B04-01.mp4",
-      "poster": "media/posters/B04-01.jpg",
+      "url": "media/videos/B04-01.mp4?v=f57c93e9d49b05e8",
+      "poster": "media/posters/B04-01.jpg?v=a9a72bcb8fb5cf58",
       "duration": 45,
-      "subtitle": "media/subtitles/B04-01.vtt",
-      "subtitleDownload": "media/subtitles/B04-01.srt",
+      "subtitle": "media/subtitles/B04-01.vtt?v=0b6e32a825654ad4",
+      "subtitleDownload": "media/subtitles/B04-01.srt?v=099e955d2cc633c4",
       "scenes": [
         {
           "start": 0,
@@ -2673,18 +2683,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "f57c93e9d49b05e8bb1856be0b2b2df867b4a547584e8a06360c6294c2808e42"
     },
     {
       "id": "B04-04",
       "chapter": "B04",
       "title": "一个功能，什么时候值得交给另一个程序？",
       "knowledge": "服务拆分",
-      "url": "media/videos/B04-04.mp4",
-      "poster": "media/posters/B04-04.jpg",
+      "url": "media/videos/B04-04.mp4?v=81da9b0d892de64c",
+      "poster": "media/posters/B04-04.jpg?v=3d12b8ef76a011fa",
       "duration": 96.8,
-      "subtitle": "media/subtitles/B04-04.vtt",
-      "subtitleDownload": "media/subtitles/B04-04.srt",
+      "subtitle": "media/subtitles/B04-04.vtt?v=26836dc658dd326e",
+      "subtitleDownload": "media/subtitles/B04-04.srt?v=a1fc134bf8724bb6",
       "scenes": [
         {
           "start": 0.0,
@@ -2738,18 +2749,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "81da9b0d892de64c58cbc903541be204c0aa9b5362b86a0c0d4444c23c22ea3e"
     },
     {
       "id": "B03-01",
       "chapter": "B03",
       "title": "收到了200，为什么还不能把数据交给下一步？",
       "knowledge": "响应校验",
-      "url": "media/videos/B03-01.mp4",
-      "poster": "media/posters/B03-01.jpg",
+      "url": "media/videos/B03-01.mp4?v=fc612b604e67cb91",
+      "poster": "media/posters/B03-01.jpg?v=d61592b9173a070c",
       "duration": 87.5,
-      "subtitle": "media/subtitles/B03-01.vtt",
-      "subtitleDownload": "media/subtitles/B03-01.srt",
+      "subtitle": "media/subtitles/B03-01.vtt?v=ecfeee7e24016ddf",
+      "subtitleDownload": "media/subtitles/B03-01.srt?v=3bd01a66096f6559",
       "scenes": [
         {
           "start": 0.0,
@@ -2818,18 +2830,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "fc612b604e67cb9155b068ee8fe5d0464673271045e82c14391a56aa9776e1a2"
     },
     {
       "id": "C01-03",
       "chapter": "C01",
       "title": "已经能存文件，为什么还需要数据库和表？",
       "knowledge": "数据表",
-      "url": "media/videos/C01-03.mp4",
-      "poster": "media/posters/C01-03.jpg",
+      "url": "media/videos/C01-03.mp4?v=19dc91fbc074d79e",
+      "poster": "media/posters/C01-03.jpg?v=fd17b11a4fe0e833",
       "duration": 65,
-      "subtitle": "media/subtitles/C01-03.vtt",
-      "subtitleDownload": "media/subtitles/C01-03.srt",
+      "subtitle": "media/subtitles/C01-03.vtt?v=d32ef770c976451d",
+      "subtitleDownload": "media/subtitles/C01-03.srt?v=ec0b3cb3dcdea83b",
       "scenes": [
         {
           "start": 0.0,
@@ -2888,18 +2901,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "19dc91fbc074d79ec1451c980a391c537dee5c57c9f7a82bd08c3e9506596f77"
     },
     {
       "id": "C02-02",
       "chapter": "C02",
       "title": "两笔销售为什么被数成四笔",
       "knowledge": "关联计数",
-      "url": "media/videos/C02-02.mp4",
-      "poster": "media/posters/C02-02.jpg",
+      "url": "media/videos/C02-02.mp4?v=3250de73a790b5df",
+      "poster": "media/posters/C02-02.jpg?v=3ff4ea8d4f2c390f",
       "duration": 61.5,
-      "subtitle": "media/subtitles/C02-02.vtt",
-      "subtitleDownload": "media/subtitles/C02-02.srt",
+      "subtitle": "media/subtitles/C02-02.vtt?v=0c6c92fe77a1aeab",
+      "subtitleDownload": "media/subtitles/C02-02.srt?v=4a3288488543a5e4",
       "scenes": [
         {
           "start": 0.0,
@@ -2958,18 +2972,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "3250de73a790b5dfd954428434a83a8d372debc1c0209a93da1cef27c86dc0a4"
     },
     {
       "id": "C04-01",
       "chapter": "C04",
       "title": "订单第三步失败，库存能真正退回吗",
       "knowledge": "事务",
-      "url": "media/videos/C04-01.mp4",
-      "poster": "media/posters/C04-01.jpg",
+      "url": "media/videos/C04-01.mp4?v=554fe9bb13a36e91",
+      "poster": "media/posters/C04-01.jpg?v=85428e1d2f842031",
       "duration": 78,
-      "subtitle": "media/subtitles/C04-01.vtt",
-      "subtitleDownload": "media/subtitles/C04-01.srt",
+      "subtitle": "media/subtitles/C04-01.vtt?v=9f4d0064947b528d",
+      "subtitleDownload": "media/subtitles/C04-01.srt?v=c84a2a7596759465",
       "scenes": [
         {
           "start": 0.0,
@@ -3023,18 +3038,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "554fe9bb13a36e912e2a485cdc8d7933734deb7c7c2b395d1daf00e777711875"
     },
     {
       "id": "D02-01",
       "chapter": "D02",
       "title": "第二次查库存，还剩多少等待时间",
       "knowledge": "重试预算",
-      "url": "media/videos/D02-01.mp4",
-      "poster": "media/posters/D02-01.jpg",
+      "url": "media/videos/D02-01.mp4?v=d5ec00612e8c01f3",
+      "poster": "media/posters/D02-01.jpg?v=70f8dfab3871d88f",
       "duration": 61,
-      "subtitle": "media/subtitles/D02-01.vtt",
-      "subtitleDownload": "media/subtitles/D02-01.srt",
+      "subtitle": "media/subtitles/D02-01.vtt?v=fc72bfbe49a68151",
+      "subtitleDownload": "media/subtitles/D02-01.srt?v=4aed971c3dbb46e5",
       "scenes": [
         {
           "start": 0.0,
@@ -3088,18 +3104,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "d5ec00612e8c01f301c8d62227c1a36bf4e08063955beaa8132fe81376b12410"
     },
     {
       "id": "D03-01",
       "chapter": "D03",
       "title": "保存已经成功，回复丢了会不会再存一份",
       "knowledge": "幂等",
-      "url": "media/videos/D03-01.mp4",
-      "poster": "media/posters/D03-01.jpg",
+      "url": "media/videos/D03-01.mp4?v=03f7fc097d2d872d",
+      "poster": "media/posters/D03-01.jpg?v=a05e0e7f48623956",
       "duration": 58,
-      "subtitle": "media/subtitles/D03-01.vtt",
-      "subtitleDownload": "media/subtitles/D03-01.srt",
+      "subtitle": "media/subtitles/D03-01.vtt?v=6b39474ff559c2fe",
+      "subtitleDownload": "media/subtitles/D03-01.srt?v=3050e9b9905da468",
       "scenes": [
         {
           "start": 0.0,
@@ -3153,18 +3170,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "03f7fc097d2d872d92a6606dac87c5bc185d5f6a683e44104c13f3f776061bf0"
     },
     {
       "id": "D04-01",
       "chapter": "D04",
       "title": "自动保存没确认，怎样留下真正能接手的下一步",
       "knowledge": "人工接续",
-      "url": "media/videos/D04-01.mp4",
-      "poster": "media/posters/D04-01.jpg",
+      "url": "media/videos/D04-01.mp4?v=2c00caec3e203cd1",
+      "poster": "media/posters/D04-01.jpg?v=3b232052c89f274b",
       "duration": 107.0,
-      "subtitle": "media/subtitles/D04-01.vtt",
-      "subtitleDownload": "media/subtitles/D04-01.srt",
+      "subtitle": "media/subtitles/D04-01.vtt?v=ac587b59241e918a",
+      "subtitleDownload": "media/subtitles/D04-01.srt?v=6d3c0497967c0ea1",
       "scenes": [
         {
           "start": 0,
@@ -3233,18 +3251,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "2c00caec3e203cd1c3d5555f5611f7eafb94708b29241b8b5191168dd7e06d2a"
     },
     {
       "id": "E01-01",
       "chapter": "E01",
       "title": "摘要多了一句结论，事实也跟着变了吗",
       "knowledge": "事实核对",
-      "url": "media/videos/E01-01.mp4",
-      "poster": "media/posters/E01-01.jpg",
+      "url": "media/videos/E01-01.mp4?v=a769ef251f645014",
+      "poster": "media/posters/E01-01.jpg?v=08905f3fdb9625cb",
       "duration": 63,
-      "subtitle": "media/subtitles/E01-01.vtt",
-      "subtitleDownload": "media/subtitles/E01-01.srt",
+      "subtitle": "media/subtitles/E01-01.vtt?v=d44b8a4390f2bd63",
+      "subtitleDownload": "media/subtitles/E01-01.srt?v=442c6b9deffa6249",
       "scenes": [
         {
           "start": 0.0,
@@ -3298,18 +3317,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "a769ef251f6450148a4d64df649301c9a6cf68009103ad9944cff044e195e24e"
     },
     {
       "id": "E04-01",
       "chapter": "E04",
       "title": "回答续借问题，怎样把条件一起带过来",
       "knowledge": "检索",
-      "url": "media/videos/E04-01.mp4",
-      "poster": "media/posters/E04-01.jpg",
+      "url": "media/videos/E04-01.mp4?v=354bd2e735774206",
+      "poster": "media/posters/E04-01.jpg?v=8164146323ee3371",
       "duration": 59.5,
-      "subtitle": "media/subtitles/E04-01.vtt",
-      "subtitleDownload": "media/subtitles/E04-01.srt",
+      "subtitle": "media/subtitles/E04-01.vtt?v=79d9bef7421340a4",
+      "subtitleDownload": "media/subtitles/E04-01.srt?v=03db593ba3dd6716",
       "scenes": [
         {
           "start": 0.0,
@@ -3363,18 +3383,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "354bd2e735774206e07a71a95073322d4ae320896249efc5d1f101c3e3a0e96d"
     },
     {
       "id": "E05-01",
       "chapter": "E05",
       "title": "用户同意修改以后，为什么还要再查一次",
       "knowledge": "授权检查",
-      "url": "media/videos/E05-01.mp4",
-      "poster": "media/posters/E05-01.jpg",
+      "url": "media/videos/E05-01.mp4?v=624f6520c9a3b070",
+      "poster": "media/posters/E05-01.jpg?v=7ba19835ec8d1648",
       "duration": 65.5,
-      "subtitle": "media/subtitles/E05-01.vtt",
-      "subtitleDownload": "media/subtitles/E05-01.srt",
+      "subtitle": "media/subtitles/E05-01.vtt?v=71397a98e5474ed7",
+      "subtitleDownload": "media/subtitles/E05-01.srt?v=af84543bcd08a842",
       "scenes": [
         {
           "start": 0.0,
@@ -3433,18 +3454,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "624f6520c9a3b07067667c82a7e05dbcb488811a24b789fc438437b561990a4a"
     },
     {
       "id": "E06-01",
       "chapter": "E06",
       "title": "新版本更快了，就说明改得更好吗？",
       "knowledge": "评测",
-      "url": "media/videos/E06-01.mp4",
-      "poster": "media/posters/E06-01.jpg",
+      "url": "media/videos/E06-01.mp4?v=41f34e4dc6668185",
+      "poster": "media/posters/E06-01.jpg?v=40fc8274cb90f05c",
       "duration": 59,
-      "subtitle": "media/subtitles/E06-01.vtt",
-      "subtitleDownload": "media/subtitles/E06-01.srt",
+      "subtitle": "media/subtitles/E06-01.vtt?v=3948f9667bbc0fe8",
+      "subtitleDownload": "media/subtitles/E06-01.srt?v=1261fd94e783dc28",
       "scenes": [
         {
           "start": 0.0,
@@ -3498,18 +3520,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "41f34e4dc6668185da9f7a84d545f811667a9e605312e83bf00903a68c3ae3a8"
     },
     {
       "id": "F01-01",
       "chapter": "F01",
       "title": "同一镜像启动两次，停掉一次会留下什么？",
       "knowledge": "容器",
-      "url": "media/videos/F01-01.mp4",
-      "poster": "media/posters/F01-01.jpg",
+      "url": "media/videos/F01-01.mp4?v=b609562f4fa0c976",
+      "poster": "media/posters/F01-01.jpg?v=b315b81225770266",
       "duration": 70,
-      "subtitle": "media/subtitles/F01-01.vtt",
-      "subtitleDownload": "media/subtitles/F01-01.srt",
+      "subtitle": "media/subtitles/F01-01.vtt?v=6629b26b26b5f08d",
+      "subtitleDownload": "media/subtitles/F01-01.srt?v=5c95a19114f44a15",
       "scenes": [
         {
           "start": 0,
@@ -3573,18 +3596,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "b609562f4fa0c976ed7b1abe54223f810cc269ef1b3b063baa639fea889e2f69"
     },
     {
       "id": "F03-02",
       "chapter": "F03",
       "title": "删除笔记容器后，原来的笔记从哪里读回来？",
       "knowledge": "数据卷",
-      "url": "media/videos/F03-02.mp4",
-      "poster": "media/posters/F03-02.jpg",
+      "url": "media/videos/F03-02.mp4?v=9f1f8ac64031c01a",
+      "poster": "media/posters/F03-02.jpg?v=0b81ebf559ff02d8",
       "duration": 76,
-      "subtitle": "media/subtitles/F03-02.vtt",
-      "subtitleDownload": "media/subtitles/F03-02.srt",
+      "subtitle": "media/subtitles/F03-02.vtt?v=ceab0929d144cf99",
+      "subtitleDownload": "media/subtitles/F03-02.srt?v=d8b095e98a11a0d4",
       "scenes": [
         {
           "start": 0,
@@ -3658,18 +3682,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "9f1f8ac64031c01a27ca855fad2a66ca9c58b713c308e408ff2cf67dbaae7b3d"
     },
     {
       "id": "F04-01",
       "chapter": "F04",
       "title": "笔记服务活着，却拒绝保存：它究竟检查了什么？",
       "knowledge": "健康检查",
-      "url": "media/videos/F04-01.mp4",
-      "poster": "media/posters/F04-01.jpg",
+      "url": "media/videos/F04-01.mp4?v=b0c68330c47d710c",
+      "poster": "media/posters/F04-01.jpg?v=fbfae42d030b3092",
       "duration": 87,
-      "subtitle": "media/subtitles/F04-01.vtt",
-      "subtitleDownload": "media/subtitles/F04-01.srt",
+      "subtitle": "media/subtitles/F04-01.vtt?v=7aafe92db5bfc1ed",
+      "subtitleDownload": "media/subtitles/F04-01.srt?v=173244d19f0cd59f",
       "scenes": [
         {
           "start": 0,
@@ -3753,18 +3778,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "b0c68330c47d710c3a3e235b84b8736e1c8a0697019761a36b75acf90f89c33f"
     },
     {
       "id": "F05-01",
       "chapter": "F05",
       "title": "一份笔记备份，怎样证明真的能恢复？",
       "knowledge": "备份恢复",
-      "url": "media/videos/F05-01.mp4",
-      "poster": "media/posters/F05-01.jpg",
+      "url": "media/videos/F05-01.mp4?v=35bf2f5829f74c6b",
+      "poster": "media/posters/F05-01.jpg?v=0d2660199b46b45f",
       "duration": 66,
-      "subtitle": "media/subtitles/F05-01.vtt",
-      "subtitleDownload": "media/subtitles/F05-01.srt",
+      "subtitle": "media/subtitles/F05-01.vtt?v=9def5643164b75eb",
+      "subtitleDownload": "media/subtitles/F05-01.srt?v=d4de044df1b7c706",
       "scenes": [
         {
           "start": 0,
@@ -3823,18 +3849,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "35bf2f5829f74c6b991f7881097ab0b19fab050915c79af85364526ef4b54d92"
     },
     {
       "id": "X01-01",
       "chapter": "X01",
       "title": "输入框里的“3”，怎样变成数据库中已保存的打印订单？",
       "knowledge": "输入到入库",
-      "url": "media/videos/X01-01.mp4",
-      "poster": "media/posters/X01-01.jpg",
+      "url": "media/videos/X01-01.mp4?v=c9ef135019e4ee89",
+      "poster": "media/posters/X01-01.jpg?v=0961afc2a3256386",
       "duration": 104,
-      "subtitle": "media/subtitles/X01-01.vtt",
-      "subtitleDownload": "media/subtitles/X01-01.srt",
+      "subtitle": "media/subtitles/X01-01.vtt?v=1e1d3d617c547fe9",
+      "subtitleDownload": "media/subtitles/X01-01.srt?v=ae217faa89706bb1",
       "scenes": [
         {
           "start": 0,
@@ -3933,18 +3960,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "c9ef135019e4ee89b0c48acf0d5df77fe27f752b97daa59acd54c59a4d1ed730"
     },
     {
       "id": "X01-02",
       "chapter": "X01",
       "title": "配送方已经接单，本地订单为什么还要再保存一次？",
       "knowledge": "外部交接",
-      "url": "media/videos/X01-02.mp4",
-      "poster": "media/posters/X01-02.jpg",
+      "url": "media/videos/X01-02.mp4?v=68a255e11e70fad0",
+      "poster": "media/posters/X01-02.jpg?v=beb39eee4648f752",
       "duration": 77,
-      "subtitle": "media/subtitles/X01-02.vtt",
-      "subtitleDownload": "media/subtitles/X01-02.srt",
+      "subtitle": "media/subtitles/X01-02.vtt?v=502359f4b9f3f12f",
+      "subtitleDownload": "media/subtitles/X01-02.srt?v=ccdc3a9f7b1ae169",
       "scenes": [
         {
           "start": 0,
@@ -4018,18 +4046,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "68a255e11e70fad01cc0136e275df66d4c300e54b2b23bb5fcb2c6d01dcb5797"
     },
     {
       "id": "P06-01",
       "chapter": "P06",
       "title": "该改流程、买工具，还是自己开发？先看什么？",
       "knowledge": "方案选择",
-      "url": "media/videos/P06-01.mp4",
-      "poster": "media/posters/P06-01.jpg",
+      "url": "media/videos/P06-01.mp4?v=93c969c445ec1cd3",
+      "poster": "media/posters/P06-01.jpg?v=f286b9863f43f3b4",
       "duration": 72,
-      "subtitle": "media/subtitles/P06-01.vtt",
-      "subtitleDownload": "media/subtitles/P06-01.srt",
+      "subtitle": "media/subtitles/P06-01.vtt?v=d224cb6cb42d5d6e",
+      "subtitleDownload": "media/subtitles/P06-01.srt?v=b312102598f90d2f",
       "scenes": [
         {
           "start": 0,
@@ -4098,18 +4127,19 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "93c969c445ec1cd303cc44bde5cf6966c26c52d16af8cfd316e5d0be973a260b"
     },
     {
       "id": "P12-01",
       "chapter": "P12",
       "title": "回复中位数少了 12 分钟，为什么仍不能宣布服务改善？",
       "knowledge": "效果判断",
-      "url": "media/videos/P12-01.mp4",
-      "poster": "media/posters/P12-01.jpg",
+      "url": "media/videos/P12-01.mp4?v=85682174dbef3d58",
+      "poster": "media/posters/P12-01.jpg?v=e24cb55c9defc64a",
       "duration": 69,
-      "subtitle": "media/subtitles/P12-01.vtt",
-      "subtitleDownload": "media/subtitles/P12-01.srt",
+      "subtitle": "media/subtitles/P12-01.vtt?v=c3f6363e2c85d06b",
+      "subtitleDownload": "media/subtitles/P12-01.srt?v=4698447220309e88",
       "scenes": [
         {
           "start": 0,
@@ -4168,7 +4198,8 @@
         }
       ],
       "narration": false,
-      "captionNote": "短字幕已在画面中；另附字幕文件供下载。"
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "85682174dbef3d582a3f6023a1cbccdbe09be4636c57d62a0ae77fe555efcb65"
     }
   ],
   "readingNote": "正文保留原教材的解释与代码。D:\\FDE-Lab 等路径是教学示例，不指向作者电脑。视频用于看清一个问题，不替代整章。",
