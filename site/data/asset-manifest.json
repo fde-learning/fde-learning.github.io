@@ -2,6 +2,11 @@
   "schemaVersion": 1,
   "files": [
     {
+      "path": "app.js",
+      "sha256": "3cbb856523b6b5a36edc606ec77c42ca09906cbeb86438f81ca2b96ae8c313cc",
+      "bytes": 29507
+    },
+    {
       "path": "content/00.json",
       "sha256": "96c916d47f7cf8d696d953ed5f797d04fe565da08a1d675a11f34b1416fbda6b",
       "bytes": 19758
@@ -380,6 +385,11 @@
       "path": "data/search-index.json",
       "sha256": "9fe799e7628cd29f77f31dd8a5be50b733bfced1c2194d14030f687a8402e831",
       "bytes": 913211
+    },
+    {
+      "path": "index.html",
+      "sha256": "48d03959001cd01c28cea678a6d77cd12255a982c5f5b7ee941bdec81ff4b0d3",
+      "bytes": 2485
     },
     {
       "path": "media/books/00.pdf",
@@ -3025,6 +3035,16 @@
       "path": "media/videos/X04-03.mp4",
       "sha256": "227a7269fdefb046e23d5ab0cefeda801da999825be8eee5a17d8d1d3329f7c6",
       "bytes": 2700505
+    },
+    {
+      "path": "search.js",
+      "sha256": "350476832a21caeef38d3e809856b17c06a3508e92bb23fe0dc1db8ed731b469",
+      "bytes": 2047
+    },
+    {
+      "path": "styles.css",
+      "sha256": "60f5115697b4fe4a1e660b57f6e6c0a356c94ddac3903f74d6845514b26d8665",
+      "bytes": 27254
     }
   ]
 }

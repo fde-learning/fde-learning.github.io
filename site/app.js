@@ -1,4 +1,4 @@
-import {searchCatalog} from './search.js';
+import {searchCatalog} from './search.js?v=350476832a21caee';
 
 const main = document.querySelector('#main');
 const search = document.querySelector('#search');
@@ -186,7 +186,7 @@ async function route() {
     document.title=(main.querySelector('h1')?.textContent.replace(/\s+/g,' ').trim()||'把系统看明白')+' · FDE 学习站';
     main.querySelectorAll('[data-filter-route]').forEach(el=>el.addEventListener('change',()=>{const next=new URLSearchParams(params);if(el.value==='all')next.delete('book');else next.set('book',el.value);location.hash=`/${el.dataset.filterRoute}${next.size?'?'+next:''}`;}));
     main.focus({preventScroll:true});
-  }catch(error){main.innerHTML=`<div class="page empty"><h1>这页暂时没有加载成功</h1><p>请刷新后重试，或先打开原册 PDF。</p>${chapter?fileLink('打开原册 PDF',chapter.pdf,'button primary'):''}<a class="button quiet" href="#/">返回首页</a></div>`;console.error(error);}
+  }catch(error){if(token!==renderId)return;main.innerHTML=`<div class="page empty"><h1>这页暂时没有加载成功</h1><p>请刷新后重试，或先打开原册 PDF。</p>${chapter?fileLink('打开原册 PDF',chapter.pdf,'button primary'):''}<a class="button quiet" href="#/">返回首页</a></div>`;console.error(error);}
 }
 try {
   const catalogUrl='./data/catalog.json'+(publicationRevision?'?v='+encodeURIComponent(publicationRevision):'');

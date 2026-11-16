@@ -13,7 +13,11 @@ export function matchScore(query, title, body = '') {
     if (!/^[\u4e00-\u9fff]{3,}$/.test(term)) return 0;
     const pairs = [...new Set(Array.from({length: term.length - 1}, (_, i) => term.slice(i, i + 2)))];
     const hits = pairs.filter(pair => label.includes(pair)).length;
-    if (hits < Math.max(2, Math.ceil(pairs.length * .67))) return 0;
+    // A natural Chinese question may omit one connecting character from the
+    // displayed title (for example “提交哪份” vs “提交的到底是哪份”).
+    // Allow one missing adjacent pair while still requiring at least two
+    // meaningful overlaps, so unrelated long prose does not become a match.
+    if (hits < Math.max(2, pairs.length - 1)) return 0;
     score += Math.round(hits / pairs.length * 50);
   }
   return score;

@@ -20,5 +20,7 @@ check('Exact chapter and full-width entry work', () => {
 });
 check('Short knowledge title lookup', () => assert.equal(searchCatalog(catalog, bodies, '未知值与统计').videos[0].id, 'C01-02'));
 check('Combined problem words narrow the answer', () => assert.equal(searchCatalog(catalog, bodies, '文件 三份').videos[0].id, 'A11-01'));
+check('Natural Chinese phrase tolerates a connecting character', () => assert.equal(searchCatalog(catalog, bodies, '提交哪份').videos[0].id, 'A11-01'));
+check('Two related Chinese words can point to one video', () => assert.equal(searchCatalog(catalog, bodies, '函数返回').videos[0].id, 'A02-02'));
 check('Unknown text has no spurious matches', () => assert.equal(searchCatalog(catalog, bodies, '不存在的胡萝卜课程').videos.length, 0));
 console.log(JSON.stringify({status:'passed', checks}));
