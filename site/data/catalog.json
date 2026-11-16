@@ -231,7 +231,8 @@
         }
       ],
       "videos": [
-        "A02-02"
+        "A02-02",
+        "A02-01"
       ],
       "maps": [
         {
@@ -291,7 +292,8 @@
         }
       ],
       "videos": [
-        "A04-01"
+        "A04-01",
+        "A04-02"
       ],
       "maps": [
         {
@@ -320,7 +322,9 @@
           "url": "media/maps/A05.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "A05-01"
+      ],
       "maps": [
         {
           "label": "出错以后，程序怎样继续？",
@@ -353,7 +357,9 @@
           "url": "media/maps/A06.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "A06-01"
+      ],
       "maps": [
         {
           "label": "别处的代码，怎样为当前程序工作？",
@@ -422,7 +428,8 @@
         }
       ],
       "videos": [
-        "A08-01"
+        "A08-01",
+        "A08-02"
       ],
       "maps": [
         {
@@ -491,7 +498,10 @@
           "url": "media/maps/A10.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "A10-01",
+        "A10-02"
+      ],
       "maps": [
         {
           "label": "程序运行后，怎样观察和停止？",
@@ -524,7 +534,10 @@
           "url": "media/maps/A11.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "A11-01",
+        "A11-02"
+      ],
       "maps": [
         {
           "label": "怎样保存和找回一份确定的代码？",
@@ -557,7 +570,9 @@
           "url": "media/maps/A12.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "A12-01"
+      ],
       "maps": [
         {
           "label": "离开当前环境还能重新运行吗？",
@@ -585,7 +600,9 @@
           "url": "media/maps/A13.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "A13-02"
+      ],
       "maps": [
         {
           "label": "把输入整理成一份可靠报告",
@@ -649,7 +666,8 @@
         }
       ],
       "videos": [
-        "B02-01"
+        "B02-01",
+        "B02-02"
       ],
       "maps": [
         {
@@ -684,7 +702,8 @@
         }
       ],
       "videos": [
-        "B03-01"
+        "B03-01",
+        "B03-02"
       ],
       "maps": [
         {
@@ -720,7 +739,9 @@
       ],
       "videos": [
         "B04-01",
-        "B04-04"
+        "B04-04",
+        "B04-02",
+        "B04-03"
       ],
       "maps": [
         {
@@ -788,7 +809,9 @@
         }
       ],
       "videos": [
-        "C01-03"
+        "C01-03",
+        "C01-01",
+        "C01-02"
       ],
       "maps": [
         {
@@ -818,7 +841,8 @@
         }
       ],
       "videos": [
-        "C02-02"
+        "C02-02",
+        "C02-01"
       ],
       "maps": [
         {
@@ -847,7 +871,9 @@
           "url": "media/maps/C03.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "C03-01"
+      ],
       "maps": [
         {
           "label": "数据结构与约束",
@@ -915,7 +941,9 @@
           "url": "media/maps/C05.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "C05-01"
+      ],
       "maps": [
         {
           "label": "应用读库与可追踪结果",
@@ -948,7 +976,9 @@
           "url": "media/maps/C06.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "C06-01"
+      ],
       "maps": [
         {
           "label": "查询计划与性能判断",
@@ -981,7 +1011,9 @@
           "url": "media/maps/D01.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "D01-01"
+      ],
       "maps": [
         {
           "label": "依赖失败的责任位置",
@@ -1182,7 +1214,9 @@
           "url": "media/maps/E02.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "E02-01"
+      ],
       "maps": [
         {
           "label": "可检查的输出合同",
@@ -1215,7 +1249,9 @@
           "url": "media/maps/E03.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "E03-01"
+      ],
       "maps": [
         {
           "label": "对话状态与真实反馈",
@@ -1249,7 +1285,8 @@
         }
       ],
       "videos": [
-        "E04-01"
+        "E04-01",
+        "E04-02"
       ],
       "maps": [
         {
@@ -1378,7 +1415,10 @@
           "url": "media/maps/F02.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "F02-01",
+        "F02-02"
+      ],
       "maps": [
         {
           "label": "构建输入与运行模板",
@@ -1412,7 +1452,8 @@
         }
       ],
       "videos": [
-        "F03-02"
+        "F03-02",
+        "F03-01"
       ],
       "maps": [
         {
@@ -1477,7 +1518,8 @@
         }
       ],
       "videos": [
-        "F05-01"
+        "F05-01",
+        "F05-02"
       ],
       "maps": [
         {
@@ -1511,7 +1553,9 @@
           "url": "media/maps/F06.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "F06-01"
+      ],
       "maps": [
         {
           "label": "验收、运行手册与交接",
@@ -1580,7 +1624,9 @@
           "url": "media/maps/X02.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "X02-01"
+      ],
       "maps": [
         {
           "label": "相同失败码与不同事实",
@@ -1613,7 +1659,9 @@
           "url": "media/maps/X03.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "X03-01"
+      ],
       "maps": [
         {
           "label": "重放承诺与组合证据",
@@ -1646,7 +1694,11 @@
           "url": "media/maps/X04.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "X04-01",
+        "X04-02",
+        "X04-03"
+      ],
       "maps": [
         {
           "label": "运行身份、恢复与交接",
@@ -1674,7 +1726,9 @@
           "url": "media/maps/P01.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P01-01"
+      ],
       "maps": [
         {
           "label": "问题、办法与效果",
@@ -1720,7 +1774,9 @@
           "url": "media/maps/P03.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P03-01"
+      ],
       "maps": [
         {
           "label": "调查与证据范围",
@@ -1743,7 +1799,10 @@
           "url": "media/maps/P04.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P04-01",
+        "P04-02"
+      ],
       "maps": [
         {
           "label": "工作、状态与责任",
@@ -1766,7 +1825,10 @@
           "url": "media/maps/P05.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P05-01",
+        "P05-02"
+      ],
       "maps": [
         {
           "label": "等待、工时与原因",
@@ -1814,7 +1876,10 @@
           "url": "media/maps/P07.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P07-01",
+        "P07-02"
+      ],
       "maps": [
         {
           "label": "投入、现金与收益",
@@ -1837,7 +1902,9 @@
           "url": "media/maps/P08.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P08-02"
+      ],
       "maps": [
         {
           "label": "行为约定与验收",
@@ -1860,7 +1927,9 @@
           "url": "media/maps/P09.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P09-01"
+      ],
       "maps": [
         {
           "label": "页面理解与错误恢复",
@@ -1883,7 +1952,9 @@
           "url": "media/maps/P10.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P10-01"
+      ],
       "maps": [
         {
           "label": "未知、验证与下一步",
@@ -1906,7 +1977,9 @@
           "url": "media/maps/P11.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P11-01"
+      ],
       "maps": [
         {
           "label": "采用、接手与暂停",
@@ -1954,7 +2027,9 @@
           "url": "media/maps/P13.pdf"
         }
       ],
-      "videos": [],
+      "videos": [
+        "P13-01"
+      ],
       "maps": [
         {
           "label": "业务与技术的双向联系",
@@ -1970,11 +2045,11 @@
       "chapter": "00",
       "title": "算出来了，为什么关掉后又找不到？",
       "knowledge": "结果保存",
-      "url": "media/videos/00-01.mp4?v=88e8a3ec4ac4aac7",
-      "poster": "media/posters/00-01.jpg?v=177d93273055e2b0",
+      "url": "media/videos/00-01.mp4",
+      "poster": "media/posters/00-01.jpg",
       "duration": 42,
-      "subtitle": "media/subtitles/00-01.vtt?v=09672fda3a6b3094",
-      "subtitleDownload": "media/subtitles/00-01.srt?v=4976fef47d46d08c",
+      "subtitle": "media/subtitles/00-01.vtt",
+      "subtitleDownload": "media/subtitles/00-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -2016,11 +2091,11 @@
       "chapter": "A01",
       "title": "看着2＋3，为什么运行出来的是9？",
       "knowledge": "运行文件",
-      "url": "media/videos/A01-01.mp4?v=8742c57d70d06aab",
-      "poster": "media/posters/A01-01.jpg?v=6259b5ebb71c574e",
+      "url": "media/videos/A01-01.mp4",
+      "poster": "media/posters/A01-01.jpg",
       "duration": 55,
-      "subtitle": "media/subtitles/A01-01.vtt?v=635d5e3728279c98",
-      "subtitleDownload": "media/subtitles/A01-01.srt?v=222a1e9ca344491a",
+      "subtitle": "media/subtitles/A01-01.vtt",
+      "subtitleDownload": "media/subtitles/A01-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -2062,11 +2137,11 @@
       "chapter": "A02",
       "title": "函数里显示了8，外面为什么拿不到8？",
       "knowledge": "返回与显示",
-      "url": "media/videos/A02-02.mp4?v=535685084ab448b0",
-      "poster": "media/posters/A02-02.jpg?v=0bbf17605ffc26b4",
+      "url": "media/videos/A02-02.mp4",
+      "poster": "media/posters/A02-02.jpg",
       "duration": 66,
-      "subtitle": "media/subtitles/A02-02.vtt?v=1845b157f28113e5",
-      "subtitleDownload": "media/subtitles/A02-02.srt?v=afd6f36e37b345f6",
+      "subtitle": "media/subtitles/A02-02.vtt",
+      "subtitleDownload": "media/subtitles/A02-02.srt",
       "scenes": [
         {
           "start": 0,
@@ -2113,11 +2188,11 @@
       "chapter": "A03",
       "title": "前面已经判成负数，最后为什么变成了正数？",
       "knowledge": "条件分支",
-      "url": "media/videos/A03-01.mp4?v=969849df2aeabc19",
-      "poster": "media/posters/A03-01.jpg?v=a8c3f4e3b7f3e67e",
+      "url": "media/videos/A03-01.mp4",
+      "poster": "media/posters/A03-01.jpg",
       "duration": 81,
-      "subtitle": "media/subtitles/A03-01.vtt?v=1649f0ada689f564",
-      "subtitleDownload": "media/subtitles/A03-01.srt?v=8855d6a608a2b96e",
+      "subtitle": "media/subtitles/A03-01.vtt",
+      "subtitleDownload": "media/subtitles/A03-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2182,18 +2257,18 @@
       ],
       "narration": false,
       "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
-      "sha256": "969849df2aeabc195ed63b7823eacbe25ca1321d3bedd5402a5e4fe8412da4fd"
+      "sha256": "fa761afb20409d01a4195405ec3b87c5c30f4c12ce7405803ab906ab39fd8380"
     },
     {
       "id": "A04-01",
       "chapter": "A04",
       "title": "下一次数据从哪里来，循环又为什么停下？",
       "knowledge": "循环",
-      "url": "media/videos/A04-01.mp4?v=110b6277239df633",
-      "poster": "media/posters/A04-01.jpg?v=24cf53f7724e42d2",
+      "url": "media/videos/A04-01.mp4",
+      "poster": "media/posters/A04-01.jpg",
       "duration": 83,
-      "subtitle": "media/subtitles/A04-01.vtt?v=6d5096fb0fe0e789",
-      "subtitleDownload": "media/subtitles/A04-01.srt?v=f5e2332b2dd1b45b",
+      "subtitle": "media/subtitles/A04-01.vtt",
+      "subtitleDownload": "media/subtitles/A04-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2265,11 +2340,11 @@
       "chapter": "A08",
       "title": "重复保存一次，为什么文件从两行变成四行？",
       "knowledge": "文件写入",
-      "url": "media/videos/A08-01.mp4?v=0f2b68653642bfdf",
-      "poster": "media/posters/A08-01.jpg?v=fd85babe46d25521",
+      "url": "media/videos/A08-01.mp4",
+      "poster": "media/posters/A08-01.jpg",
       "duration": 75.5,
-      "subtitle": "media/subtitles/A08-01.vtt?v=64e2360fb386734d",
-      "subtitleDownload": "media/subtitles/A08-01.srt?v=74ea87037afc83e1",
+      "subtitle": "media/subtitles/A08-01.vtt",
+      "subtitleDownload": "media/subtitles/A08-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2336,11 +2411,11 @@
       "chapter": "A07",
       "title": "正方形测对了，为什么长方形仍然算错？",
       "knowledge": "测试",
-      "url": "media/videos/A07-01.mp4?v=60c0abda50d3dcb1",
-      "poster": "media/posters/A07-01.jpg?v=ecc81c290602181a",
+      "url": "media/videos/A07-01.mp4",
+      "poster": "media/posters/A07-01.jpg",
       "duration": 78.7,
-      "subtitle": "media/subtitles/A07-01.vtt?v=ff541946a2ae2a6d",
-      "subtitleDownload": "media/subtitles/A07-01.srt?v=cab58ead47813799",
+      "subtitle": "media/subtitles/A07-01.vtt",
+      "subtitleDownload": "media/subtitles/A07-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2407,11 +2482,11 @@
       "chapter": "A09",
       "title": "明明装过这个包，为什么当前程序仍然找不到？",
       "knowledge": "运行环境",
-      "url": "media/videos/A09-01.mp4?v=fcc5886f202984d2",
-      "poster": "media/posters/A09-01.jpg?v=fd6af89f12771b62",
+      "url": "media/videos/A09-01.mp4",
+      "poster": "media/posters/A09-01.jpg",
       "duration": 72.1,
-      "subtitle": "media/subtitles/A09-01.vtt?v=00f3b3cffd7f9243",
-      "subtitleDownload": "media/subtitles/A09-01.srt?v=fd7c65aec05a7910",
+      "subtitle": "media/subtitles/A09-01.vtt",
+      "subtitleDownload": "media/subtitles/A09-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2473,11 +2548,11 @@
       "chapter": "B01",
       "title": "本地的一段文字，怎样交给另一个程序计算？",
       "knowledge": "请求响应",
-      "url": "media/videos/B01-01.mp4?v=0e2c2e4041033c40",
-      "poster": "media/posters/B01-01.jpg?v=599f8aef59583bee",
+      "url": "media/videos/B01-01.mp4",
+      "poster": "media/posters/B01-01.jpg",
       "duration": 76.4,
-      "subtitle": "media/subtitles/B01-01.vtt?v=574db86cb3d7d004",
-      "subtitleDownload": "media/subtitles/B01-01.srt?v=aee44e4b6f679726",
+      "subtitle": "media/subtitles/B01-01.vtt",
+      "subtitleDownload": "media/subtitles/B01-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2559,11 +2634,11 @@
       "chapter": "B02",
       "title": "请求没写Python函数名，服务怎么知道调用谁？",
       "knowledge": "路由校验",
-      "url": "media/videos/B02-01.mp4?v=ef0a16796ac7f0c3",
-      "poster": "media/posters/B02-01.jpg?v=477b1542d2b0fff9",
+      "url": "media/videos/B02-01.mp4",
+      "poster": "media/posters/B02-01.jpg",
       "duration": 96.5,
-      "subtitle": "media/subtitles/B02-01.vtt?v=0ee07f00570bd731",
-      "subtitleDownload": "media/subtitles/B02-01.srt?v=0a763caa91e9ea8c",
+      "subtitle": "media/subtitles/B02-01.vtt",
+      "subtitleDownload": "media/subtitles/B02-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2635,11 +2710,11 @@
       "chapter": "B04",
       "title": "图已经好了，网页怎么还在等？",
       "knowledge": "两段请求",
-      "url": "media/videos/B04-01.mp4?v=f57c93e9d49b05e8",
-      "poster": "media/posters/B04-01.jpg?v=a9a72bcb8fb5cf58",
+      "url": "media/videos/B04-01.mp4",
+      "poster": "media/posters/B04-01.jpg",
       "duration": 45,
-      "subtitle": "media/subtitles/B04-01.vtt?v=0b6e32a825654ad4",
-      "subtitleDownload": "media/subtitles/B04-01.srt?v=099e955d2cc633c4",
+      "subtitle": "media/subtitles/B04-01.vtt",
+      "subtitleDownload": "media/subtitles/B04-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -2691,11 +2766,11 @@
       "chapter": "B04",
       "title": "一个功能，什么时候值得交给另一个程序？",
       "knowledge": "服务拆分",
-      "url": "media/videos/B04-04.mp4?v=81da9b0d892de64c",
-      "poster": "media/posters/B04-04.jpg?v=3d12b8ef76a011fa",
+      "url": "media/videos/B04-04.mp4",
+      "poster": "media/posters/B04-04.jpg",
       "duration": 96.8,
-      "subtitle": "media/subtitles/B04-04.vtt?v=26836dc658dd326e",
-      "subtitleDownload": "media/subtitles/B04-04.srt?v=a1fc134bf8724bb6",
+      "subtitle": "media/subtitles/B04-04.vtt",
+      "subtitleDownload": "media/subtitles/B04-04.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2757,11 +2832,11 @@
       "chapter": "B03",
       "title": "收到了200，为什么还不能把数据交给下一步？",
       "knowledge": "响应校验",
-      "url": "media/videos/B03-01.mp4?v=fc612b604e67cb91",
-      "poster": "media/posters/B03-01.jpg?v=d61592b9173a070c",
+      "url": "media/videos/B03-01.mp4",
+      "poster": "media/posters/B03-01.jpg",
       "duration": 87.5,
-      "subtitle": "media/subtitles/B03-01.vtt?v=ecfeee7e24016ddf",
-      "subtitleDownload": "media/subtitles/B03-01.srt?v=3bd01a66096f6559",
+      "subtitle": "media/subtitles/B03-01.vtt",
+      "subtitleDownload": "media/subtitles/B03-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2838,11 +2913,11 @@
       "chapter": "C01",
       "title": "已经能存文件，为什么还需要数据库和表？",
       "knowledge": "数据表",
-      "url": "media/videos/C01-03.mp4?v=19dc91fbc074d79e",
-      "poster": "media/posters/C01-03.jpg?v=fd17b11a4fe0e833",
+      "url": "media/videos/C01-03.mp4",
+      "poster": "media/posters/C01-03.jpg",
       "duration": 65,
-      "subtitle": "media/subtitles/C01-03.vtt?v=d32ef770c976451d",
-      "subtitleDownload": "media/subtitles/C01-03.srt?v=ec0b3cb3dcdea83b",
+      "subtitle": "media/subtitles/C01-03.vtt",
+      "subtitleDownload": "media/subtitles/C01-03.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2902,18 +2977,18 @@
       ],
       "narration": false,
       "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
-      "sha256": "19dc91fbc074d79ec1451c980a391c537dee5c57c9f7a82bd08c3e9506596f77"
+      "sha256": "b919228c493b271ccc9afedad7901bddcb48989e7fff8c356b2d7dbe5167eecb"
     },
     {
       "id": "C02-02",
       "chapter": "C02",
       "title": "两笔销售为什么被数成四笔",
       "knowledge": "关联计数",
-      "url": "media/videos/C02-02.mp4?v=3250de73a790b5df",
-      "poster": "media/posters/C02-02.jpg?v=3ff4ea8d4f2c390f",
+      "url": "media/videos/C02-02.mp4",
+      "poster": "media/posters/C02-02.jpg",
       "duration": 61.5,
-      "subtitle": "media/subtitles/C02-02.vtt?v=0c6c92fe77a1aeab",
-      "subtitleDownload": "media/subtitles/C02-02.srt?v=4a3288488543a5e4",
+      "subtitle": "media/subtitles/C02-02.vtt",
+      "subtitleDownload": "media/subtitles/C02-02.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -2980,11 +3055,11 @@
       "chapter": "C04",
       "title": "订单第三步失败，库存能真正退回吗",
       "knowledge": "事务",
-      "url": "media/videos/C04-01.mp4?v=554fe9bb13a36e91",
-      "poster": "media/posters/C04-01.jpg?v=85428e1d2f842031",
+      "url": "media/videos/C04-01.mp4",
+      "poster": "media/posters/C04-01.jpg",
       "duration": 78,
-      "subtitle": "media/subtitles/C04-01.vtt?v=9f4d0064947b528d",
-      "subtitleDownload": "media/subtitles/C04-01.srt?v=c84a2a7596759465",
+      "subtitle": "media/subtitles/C04-01.vtt",
+      "subtitleDownload": "media/subtitles/C04-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -3046,11 +3121,11 @@
       "chapter": "D02",
       "title": "第二次查库存，还剩多少等待时间",
       "knowledge": "重试预算",
-      "url": "media/videos/D02-01.mp4?v=d5ec00612e8c01f3",
-      "poster": "media/posters/D02-01.jpg?v=70f8dfab3871d88f",
+      "url": "media/videos/D02-01.mp4",
+      "poster": "media/posters/D02-01.jpg",
       "duration": 61,
-      "subtitle": "media/subtitles/D02-01.vtt?v=fc72bfbe49a68151",
-      "subtitleDownload": "media/subtitles/D02-01.srt?v=4aed971c3dbb46e5",
+      "subtitle": "media/subtitles/D02-01.vtt",
+      "subtitleDownload": "media/subtitles/D02-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -3105,18 +3180,18 @@
       ],
       "narration": false,
       "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
-      "sha256": "d5ec00612e8c01f301c8d62227c1a36bf4e08063955beaa8132fe81376b12410"
+      "sha256": "887479d23f078158f1d6ea6dea3741a275094989cf2579070bb10978023461dc"
     },
     {
       "id": "D03-01",
       "chapter": "D03",
       "title": "保存已经成功，回复丢了会不会再存一份",
       "knowledge": "幂等",
-      "url": "media/videos/D03-01.mp4?v=03f7fc097d2d872d",
-      "poster": "media/posters/D03-01.jpg?v=a05e0e7f48623956",
+      "url": "media/videos/D03-01.mp4",
+      "poster": "media/posters/D03-01.jpg",
       "duration": 58,
-      "subtitle": "media/subtitles/D03-01.vtt?v=6b39474ff559c2fe",
-      "subtitleDownload": "media/subtitles/D03-01.srt?v=3050e9b9905da468",
+      "subtitle": "media/subtitles/D03-01.vtt",
+      "subtitleDownload": "media/subtitles/D03-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -3178,11 +3253,11 @@
       "chapter": "D04",
       "title": "自动保存没确认，怎样留下真正能接手的下一步",
       "knowledge": "人工接续",
-      "url": "media/videos/D04-01.mp4?v=2c00caec3e203cd1",
-      "poster": "media/posters/D04-01.jpg?v=3b232052c89f274b",
+      "url": "media/videos/D04-01.mp4",
+      "poster": "media/posters/D04-01.jpg",
       "duration": 107.0,
-      "subtitle": "media/subtitles/D04-01.vtt?v=ac587b59241e918a",
-      "subtitleDownload": "media/subtitles/D04-01.srt?v=6d3c0497967c0ea1",
+      "subtitle": "media/subtitles/D04-01.vtt",
+      "subtitleDownload": "media/subtitles/D04-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -3259,11 +3334,11 @@
       "chapter": "E01",
       "title": "摘要多了一句结论，事实也跟着变了吗",
       "knowledge": "事实核对",
-      "url": "media/videos/E01-01.mp4?v=a769ef251f645014",
-      "poster": "media/posters/E01-01.jpg?v=08905f3fdb9625cb",
+      "url": "media/videos/E01-01.mp4",
+      "poster": "media/posters/E01-01.jpg",
       "duration": 63,
-      "subtitle": "media/subtitles/E01-01.vtt?v=d44b8a4390f2bd63",
-      "subtitleDownload": "media/subtitles/E01-01.srt?v=442c6b9deffa6249",
+      "subtitle": "media/subtitles/E01-01.vtt",
+      "subtitleDownload": "media/subtitles/E01-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -3325,11 +3400,11 @@
       "chapter": "E04",
       "title": "回答续借问题，怎样把条件一起带过来",
       "knowledge": "检索",
-      "url": "media/videos/E04-01.mp4?v=354bd2e735774206",
-      "poster": "media/posters/E04-01.jpg?v=8164146323ee3371",
+      "url": "media/videos/E04-01.mp4",
+      "poster": "media/posters/E04-01.jpg",
       "duration": 59.5,
-      "subtitle": "media/subtitles/E04-01.vtt?v=79d9bef7421340a4",
-      "subtitleDownload": "media/subtitles/E04-01.srt?v=03db593ba3dd6716",
+      "subtitle": "media/subtitles/E04-01.vtt",
+      "subtitleDownload": "media/subtitles/E04-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -3391,11 +3466,11 @@
       "chapter": "E05",
       "title": "用户同意修改以后，为什么还要再查一次",
       "knowledge": "授权检查",
-      "url": "media/videos/E05-01.mp4?v=624f6520c9a3b070",
-      "poster": "media/posters/E05-01.jpg?v=7ba19835ec8d1648",
+      "url": "media/videos/E05-01.mp4",
+      "poster": "media/posters/E05-01.jpg",
       "duration": 65.5,
-      "subtitle": "media/subtitles/E05-01.vtt?v=71397a98e5474ed7",
-      "subtitleDownload": "media/subtitles/E05-01.srt?v=af84543bcd08a842",
+      "subtitle": "media/subtitles/E05-01.vtt",
+      "subtitleDownload": "media/subtitles/E05-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -3462,11 +3537,11 @@
       "chapter": "E06",
       "title": "新版本更快了，就说明改得更好吗？",
       "knowledge": "评测",
-      "url": "media/videos/E06-01.mp4?v=41f34e4dc6668185",
-      "poster": "media/posters/E06-01.jpg?v=40fc8274cb90f05c",
+      "url": "media/videos/E06-01.mp4",
+      "poster": "media/posters/E06-01.jpg",
       "duration": 59,
-      "subtitle": "media/subtitles/E06-01.vtt?v=3948f9667bbc0fe8",
-      "subtitleDownload": "media/subtitles/E06-01.srt?v=1261fd94e783dc28",
+      "subtitle": "media/subtitles/E06-01.vtt",
+      "subtitleDownload": "media/subtitles/E06-01.srt",
       "scenes": [
         {
           "start": 0.0,
@@ -3521,18 +3596,18 @@
       ],
       "narration": false,
       "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
-      "sha256": "41f34e4dc6668185da9f7a84d545f811667a9e605312e83bf00903a68c3ae3a8"
+      "sha256": "269c5d93d13bda359291f863dd5d66170506474bed22a6ed77e92525c807a1d3"
     },
     {
       "id": "F01-01",
       "chapter": "F01",
       "title": "同一镜像启动两次，停掉一次会留下什么？",
       "knowledge": "容器",
-      "url": "media/videos/F01-01.mp4?v=b609562f4fa0c976",
-      "poster": "media/posters/F01-01.jpg?v=b315b81225770266",
+      "url": "media/videos/F01-01.mp4",
+      "poster": "media/posters/F01-01.jpg",
       "duration": 70,
-      "subtitle": "media/subtitles/F01-01.vtt?v=6629b26b26b5f08d",
-      "subtitleDownload": "media/subtitles/F01-01.srt?v=5c95a19114f44a15",
+      "subtitle": "media/subtitles/F01-01.vtt",
+      "subtitleDownload": "media/subtitles/F01-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -3604,11 +3679,11 @@
       "chapter": "F03",
       "title": "删除笔记容器后，原来的笔记从哪里读回来？",
       "knowledge": "数据卷",
-      "url": "media/videos/F03-02.mp4?v=9f1f8ac64031c01a",
-      "poster": "media/posters/F03-02.jpg?v=0b81ebf559ff02d8",
+      "url": "media/videos/F03-02.mp4",
+      "poster": "media/posters/F03-02.jpg",
       "duration": 76,
-      "subtitle": "media/subtitles/F03-02.vtt?v=ceab0929d144cf99",
-      "subtitleDownload": "media/subtitles/F03-02.srt?v=d8b095e98a11a0d4",
+      "subtitle": "media/subtitles/F03-02.vtt",
+      "subtitleDownload": "media/subtitles/F03-02.srt",
       "scenes": [
         {
           "start": 0,
@@ -3690,11 +3765,11 @@
       "chapter": "F04",
       "title": "笔记服务活着，却拒绝保存：它究竟检查了什么？",
       "knowledge": "健康检查",
-      "url": "media/videos/F04-01.mp4?v=b0c68330c47d710c",
-      "poster": "media/posters/F04-01.jpg?v=fbfae42d030b3092",
+      "url": "media/videos/F04-01.mp4",
+      "poster": "media/posters/F04-01.jpg",
       "duration": 87,
-      "subtitle": "media/subtitles/F04-01.vtt?v=7aafe92db5bfc1ed",
-      "subtitleDownload": "media/subtitles/F04-01.srt?v=173244d19f0cd59f",
+      "subtitle": "media/subtitles/F04-01.vtt",
+      "subtitleDownload": "media/subtitles/F04-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -3786,11 +3861,11 @@
       "chapter": "F05",
       "title": "一份笔记备份，怎样证明真的能恢复？",
       "knowledge": "备份恢复",
-      "url": "media/videos/F05-01.mp4?v=35bf2f5829f74c6b",
-      "poster": "media/posters/F05-01.jpg?v=0d2660199b46b45f",
+      "url": "media/videos/F05-01.mp4",
+      "poster": "media/posters/F05-01.jpg",
       "duration": 66,
-      "subtitle": "media/subtitles/F05-01.vtt?v=9def5643164b75eb",
-      "subtitleDownload": "media/subtitles/F05-01.srt?v=d4de044df1b7c706",
+      "subtitle": "media/subtitles/F05-01.vtt",
+      "subtitleDownload": "media/subtitles/F05-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -3857,11 +3932,11 @@
       "chapter": "X01",
       "title": "输入框里的“3”，怎样变成数据库中已保存的打印订单？",
       "knowledge": "输入到入库",
-      "url": "media/videos/X01-01.mp4?v=c9ef135019e4ee89",
-      "poster": "media/posters/X01-01.jpg?v=0961afc2a3256386",
+      "url": "media/videos/X01-01.mp4",
+      "poster": "media/posters/X01-01.jpg",
       "duration": 104,
-      "subtitle": "media/subtitles/X01-01.vtt?v=1e1d3d617c547fe9",
-      "subtitleDownload": "media/subtitles/X01-01.srt?v=ae217faa89706bb1",
+      "subtitle": "media/subtitles/X01-01.vtt",
+      "subtitleDownload": "media/subtitles/X01-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -3968,11 +4043,11 @@
       "chapter": "X01",
       "title": "配送方已经接单，本地订单为什么还要再保存一次？",
       "knowledge": "外部交接",
-      "url": "media/videos/X01-02.mp4?v=68a255e11e70fad0",
-      "poster": "media/posters/X01-02.jpg?v=beb39eee4648f752",
+      "url": "media/videos/X01-02.mp4",
+      "poster": "media/posters/X01-02.jpg",
       "duration": 77,
-      "subtitle": "media/subtitles/X01-02.vtt?v=502359f4b9f3f12f",
-      "subtitleDownload": "media/subtitles/X01-02.srt?v=ccdc3a9f7b1ae169",
+      "subtitle": "media/subtitles/X01-02.vtt",
+      "subtitleDownload": "media/subtitles/X01-02.srt",
       "scenes": [
         {
           "start": 0,
@@ -4054,11 +4129,11 @@
       "chapter": "P06",
       "title": "该改流程、买工具，还是自己开发？先看什么？",
       "knowledge": "方案选择",
-      "url": "media/videos/P06-01.mp4?v=93c969c445ec1cd3",
-      "poster": "media/posters/P06-01.jpg?v=f286b9863f43f3b4",
+      "url": "media/videos/P06-01.mp4",
+      "poster": "media/posters/P06-01.jpg",
       "duration": 72,
-      "subtitle": "media/subtitles/P06-01.vtt?v=d224cb6cb42d5d6e",
-      "subtitleDownload": "media/subtitles/P06-01.srt?v=b312102598f90d2f",
+      "subtitle": "media/subtitles/P06-01.vtt",
+      "subtitleDownload": "media/subtitles/P06-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -4135,11 +4210,11 @@
       "chapter": "P12",
       "title": "回复中位数少了 12 分钟，为什么仍不能宣布服务改善？",
       "knowledge": "效果判断",
-      "url": "media/videos/P12-01.mp4?v=85682174dbef3d58",
-      "poster": "media/posters/P12-01.jpg?v=e24cb55c9defc64a",
+      "url": "media/videos/P12-01.mp4",
+      "poster": "media/posters/P12-01.jpg",
       "duration": 69,
-      "subtitle": "media/subtitles/P12-01.vtt?v=c3f6363e2c85d06b",
-      "subtitleDownload": "media/subtitles/P12-01.srt?v=4698447220309e88",
+      "subtitle": "media/subtitles/P12-01.vtt",
+      "subtitleDownload": "media/subtitles/P12-01.srt",
       "scenes": [
         {
           "start": 0,
@@ -4200,8 +4275,3006 @@
       "narration": false,
       "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
       "sha256": "85682174dbef3d582a3f6023a1cbccdbe09be4636c57d62a0ae77fe555efcb65"
+    },
+    {
+      "id": "A02-01",
+      "chapter": "A02",
+      "title": "输入7，为什么乘3得到了777？",
+      "knowledge": "输入与类型",
+      "url": "media/videos/A02-01.mp4",
+      "poster": "media/posters/A02-01.jpg",
+      "duration": 55.7,
+      "subtitle": "media/subtitles/A02-01.vtt",
+      "subtitleDownload": "media/subtitles/A02-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 4.8,
+          "title": "输入 7，想算三倍，屏幕却显示 777。"
+        },
+        {
+          "start": 4.8,
+          "end": 10.3,
+          "title": "先看程序收到的是文字，还是数值。"
+        },
+        {
+          "start": 10.3,
+          "end": 16.1,
+          "title": "input 交回文字；raw 是接住原始输入的名字。"
+        },
+        {
+          "start": 16.1,
+          "end": 20.9,
+          "title": "文字乘 3，是把同一段文字重复三次。"
+        },
+        {
+          "start": 20.9,
+          "end": 25.6,
+          "title": "Python 没算错；它执行的是文字重复规则。"
+        },
+        {
+          "start": 25.6,
+          "end": 31.1,
+          "title": "要做数值计算，先用 int 把这份文字转成整数。"
+        },
+        {
+          "start": 31.1,
+          "end": 35.9,
+          "title": "再算 number * 3，才得到数值 21。"
+        },
+        {
+          "start": 35.9,
+          "end": 41.1,
+          "title": "转换产生了新结果；raw 仍是原来的文字。"
+        },
+        {
+          "start": 41.1,
+          "end": 45.9,
+          "title": "屏幕都能显示 7，字形本身不能证明类型。"
+        },
+        {
+          "start": 45.9,
+          "end": 51.3,
+          "title": "这里的 7 可以转换；转换成功也不等于业务允许。"
+        },
+        {
+          "start": 51.3,
+          "end": 55.7,
+          "title": "先确认值的种类，再判断这个运算会做什么。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "83c3517a647aea755c169a4533dc38d27e4beda1d0e6247eeada1cd8f882d4c0"
+    },
+    {
+      "id": "A04-02",
+      "chapter": "A04",
+      "title": "前面发现过负数，最后为什么说没有？",
+      "knowledge": "跨轮状态",
+      "url": "media/videos/A04-02.mp4",
+      "poster": "media/posters/A04-02.jpg",
+      "duration": 51.2,
+      "subtitle": "media/subtitles/A04-02.vtt",
+      "subtitleDownload": "media/subtitles/A04-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.3,
+          "title": "这份列表里有没有出现过负数？只要一个就算有。"
+        },
+        {
+          "start": 5.3,
+          "end": 10.4,
+          "title": "先用 found 记“到目前为止是否出现过”。"
+        },
+        {
+          "start": 10.4,
+          "end": 15.2,
+          "title": "读到 -3，把这个历史标记改为 True。"
+        },
+        {
+          "start": 15.2,
+          "end": 20.1,
+          "title": "接着读到 5，它不是负数，但不能抹去前面的 -3。"
+        },
+        {
+          "start": 20.1,
+          "end": 24.8,
+          "title": "正确的最终结果是：出现过负数。"
+        },
+        {
+          "start": 24.8,
+          "end": 30.2,
+          "title": "错误版本把 found=False 放到了每轮开头。"
+        },
+        {
+          "start": 30.2,
+          "end": 35.6,
+          "title": "第二轮一开始，True 被清成 False，历史就丢了。"
+        },
+        {
+          "start": 35.6,
+          "end": 40.5,
+          "title": "5 不会再把它改回 True，于是最后误报没有。"
+        },
+        {
+          "start": 40.5,
+          "end": 45.7,
+          "title": "反过来输入 [5,-3]，同一错误可能暂时看不出来。"
+        },
+        {
+          "start": 45.7,
+          "end": 51.2,
+          "title": "一次结果正确，不代表跨轮状态保存得正确。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "97cdf23d0c292c5d419fd87f264d18fce32663f61f9e7aab852c5b083e3b3a3f"
+    },
+    {
+      "id": "A05-01",
+      "chapter": "A05",
+      "title": "输错一次以后，谁让程序重新问？",
+      "knowledge": "异常与重新输入",
+      "url": "media/videos/A05-01.mp4",
+      "poster": "media/posters/A05-01.jpg",
+      "duration": 68.0,
+      "subtitle": "media/subtitles/A05-01.vtt",
+      "subtitleDownload": "media/subtitles/A05-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.6,
+          "title": "程序要一个正整数，再显示相同数量的星号。"
+        },
+        {
+          "start": 5.6,
+          "end": 11.7,
+          "title": "先把输入文字转成整数；再判断是否大于 0。"
+        },
+        {
+          "start": 11.7,
+          "end": 17.4,
+          "title": "输入 x 时，int 转换失败，本次赋值没有完成。"
+        },
+        {
+          "start": 17.4,
+          "end": 23.0,
+          "title": "except 接住这类失败，显示提示。"
+        },
+        {
+          "start": 23.0,
+          "end": 28.5,
+          "title": "让输入再出现的，是包在外面的 while 循环。"
+        },
+        {
+          "start": 28.5,
+          "end": 34.2,
+          "title": "这次输入 -1，转换没报错，进入 try 后面的 else。"
+        },
+        {
+          "start": 34.2,
+          "end": 39.7,
+          "title": "read_integer 返回 -1，本次函数调用就结束了。"
+        },
+        {
+          "start": 39.7,
+          "end": 45.8,
+          "title": "调用方检查正数规则，发现 -1 仍不能用。"
+        },
+        {
+          "start": 45.8,
+          "end": 51.6,
+          "title": "由调用方再次调用函数，开始一轮新的输入。"
+        },
+        {
+          "start": 51.6,
+          "end": 56.9,
+          "title": "输入 3，转换成功，正数检查也通过。"
+        },
+        {
+          "start": 56.9,
+          "end": 61.8,
+          "title": "现在显示 ***，程序才完成这个任务。"
+        },
+        {
+          "start": 61.8,
+          "end": 68.0,
+          "title": "异常处理、重新输入、业务校验，各自承担不同工作。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "ab4ae2642dc2e1a2e303ba3f2668672f630ccdf2832a0974680d81a2bfaba595"
+    },
+    {
+      "id": "A06-01",
+      "chapter": "A06",
+      "title": "只想借一个函数，为什么导入时先出现了输出？",
+      "knowledge": "模块导入",
+      "url": "media/videos/A06-01.mp4",
+      "poster": "media/posters/A06-01.jpg",
+      "duration": 61.9,
+      "subtitle": "media/subtitles/A06-01.vtt",
+      "subtitleDownload": "media/subtitles/A06-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.3,
+          "title": "只想借用翻倍函数，怎么先多显示了两行？"
+        },
+        {
+          "start": 5.3,
+          "end": 11.0,
+          "title": "左边是装规则的模块，右边是使用它的程序。"
+        },
+        {
+          "start": 11.0,
+          "end": 16.8,
+          "title": "第一次导入模块，会执行它的顶层代码。"
+        },
+        {
+          "start": 16.8,
+          "end": 22.1,
+          "title": "def 只是把函数定义好，不会立刻算出结果。"
+        },
+        {
+          "start": 22.1,
+          "end": 27.8,
+          "title": "但文件末尾明确调用了 double(3)，于是显示 6。"
+        },
+        {
+          "start": 27.8,
+          "end": 33.1,
+          "title": "导入结束后，使用方调用 double(4)，再显示 8。"
+        },
+        {
+          "start": 33.1,
+          "end": 39.2,
+          "title": "把演示调用放进入口保护，只在直接运行时执行。"
+        },
+        {
+          "start": 39.2,
+          "end": 44.9,
+          "title": "新进程再导入，条件不成立，6 不再出现。"
+        },
+        {
+          "start": 44.9,
+          "end": 50.3,
+          "title": "最上面的打印没被包住，所以仍然会显示。"
+        },
+        {
+          "start": 50.3,
+          "end": 56.1,
+          "title": "直接运行模块，条件成立，演示的 6 仍会显示。"
+        },
+        {
+          "start": 56.1,
+          "end": 61.9,
+          "title": "同一进程通常会缓存模块；这些对照都用了新进程。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "7244aa543d872d71b8c7c620b80fa015672feb651793a663e7285d9bf6ae9ed7"
+    },
+    {
+      "id": "A08-02",
+      "chapter": "A08",
+      "title": "文字里也有逗号，程序怎样知道哪里才是分隔符？",
+      "knowledge": "CSV字段",
+      "url": "media/videos/A08-02.mp4",
+      "poster": "media/posters/A08-02.jpg",
+      "duration": 49.5,
+      "subtitle": "media/subtitles/A08-02.vtt",
+      "subtitleDownload": "media/subtitles/A08-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.3,
+          "title": "颜色名是“red, dark”，里面的逗号也是名字的一部分。"
+        },
+        {
+          "start": 5.3,
+          "end": 10.8,
+          "title": "CSV 用引号把这个完整字段包起来。"
+        },
+        {
+          "start": 10.8,
+          "end": 16.2,
+          "title": "直接按每个逗号 split，就会误拆成三段。"
+        },
+        {
+          "start": 16.2,
+          "end": 21.9,
+          "title": "CSV 解析器会按引号规则，读回两项。"
+        },
+        {
+          "start": 21.9,
+          "end": 27.5,
+          "title": "按表头名称，解析结果把颜色和数量对应起来。"
+        },
+        {
+          "start": 27.5,
+          "end": 32.9,
+          "title": "但 count 目前仍是文字“2”，不是数量整数。"
+        },
+        {
+          "start": 32.9,
+          "end": 38.1,
+          "title": "先转成整数，再按这里的规则检查数量不能为负。"
+        },
+        {
+          "start": 38.1,
+          "end": 43.7,
+          "title": "换成 -1，CSV 仍能读懂，但数量规则会拒绝。"
+        },
+        {
+          "start": 43.7,
+          "end": 49.5,
+          "title": "格式解析帮你找到字段，允许什么内容仍由应用决定。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "598e3d56988ef1d697d940bbd77b905f30bdbf1ae1b0ba17d459dd36b8839834"
+    },
+    {
+      "id": "A10-01",
+      "chapter": "A10",
+      "title": "屏幕上有提醒，这次运行到底算成功还是失败？",
+      "knowledge": "运行结果与退出码",
+      "url": "media/videos/A10-01.mp4",
+      "poster": "media/posters/A10-01.jpg",
+      "duration": 50.6,
+      "subtitle": "media/subtitles/A10-01.vtt",
+      "subtitleDownload": "media/subtitles/A10-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.2,
+          "title": "屏幕出现了提醒，这次运行就一定失败了吗？"
+        },
+        {
+          "start": 5.2,
+          "end": 10.9,
+          "title": "本片规则是：去两端空格，转大写，交回文字。"
+        },
+        {
+          "start": 10.9,
+          "end": 16.6,
+          "title": "正常结果写到标准输出，简称 stdout。"
+        },
+        {
+          "start": 16.6,
+          "end": 22.2,
+          "title": "去掉过空格，就把提醒写到标准错误，也叫 stderr。"
+        },
+        {
+          "start": 22.2,
+          "end": 28.0,
+          "title": "这份程序仍成功完成，按约定交回退出码 0。"
+        },
+        {
+          "start": 28.0,
+          "end": 33.8,
+          "title": "再用纯空格，清理后没有文字，任务就不成立。"
+        },
+        {
+          "start": 33.8,
+          "end": 39.3,
+          "title": "这次只输出诊断“没有文字”，并按约定退出 2。"
+        },
+        {
+          "start": 39.3,
+          "end": 45.0,
+          "title": "main 返回的整数，要交给 sys.exit 才成为退出码。"
+        },
+        {
+          "start": 45.0,
+          "end": 50.6,
+          "title": "判断成功要读这个程序的约定，不能只看有没有提醒。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "bacd274e2dfd3d69878db53334c2f06978959232c5b8283c230f8f4ba1c6e8ef"
+    },
+    {
+      "id": "A10-02",
+      "chapter": "A10",
+      "title": "终端一直没有回来，程序是在等待还是没有启动？",
+      "knowledge": "服务等待",
+      "url": "media/videos/A10-02.mp4",
+      "poster": "media/posters/A10-02.jpg",
+      "duration": 52.7,
+      "subtitle": "media/subtitles/A10-02.vtt",
+      "subtitleDownload": "media/subtitles/A10-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.6,
+          "title": "启动后终端没回到提示符，服务可能正在正常等待。"
+        },
+        {
+          "start": 5.6,
+          "end": 11.5,
+          "title": "这次只让它提供演示目录里的 page.txt。"
+        },
+        {
+          "start": 11.5,
+          "end": 17.5,
+          "title": "地址只绑定本机，端口使用拍摄时确认空闲的那个。"
+        },
+        {
+          "start": 17.5,
+          "end": 23.6,
+          "title": "先记录这次进程的 PID，再核对监听归属。"
+        },
+        {
+          "start": 23.6,
+          "end": 29.4,
+          "title": "在另一个窗口请求 page.txt，它返回 hello。"
+        },
+        {
+          "start": 29.4,
+          "end": 35.0,
+          "title": "请求不存在的文件，会回 404；这不表示服务没启动。"
+        },
+        {
+          "start": 35.0,
+          "end": 40.8,
+          "title": "前台窗口在服务，另一个窗口才继续发请求。"
+        },
+        {
+          "start": 40.8,
+          "end": 46.8,
+          "title": "结束时只停止本次服务，再检查原进程和监听。"
+        },
+        {
+          "start": 46.8,
+          "end": 52.7,
+          "title": "PID、监听、回应证明的范围不同，要按问题选择证据。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "7fb5a0849acc0b6822dcff2c9477c826a050cc36f430b44f4354297bf33f494a"
+    },
+    {
+      "id": "A11-01",
+      "chapter": "A11",
+      "title": "同一个文件有三份内容，提交的到底是哪份？",
+      "knowledge": "提交快照",
+      "url": "media/videos/A11-01.mp4",
+      "poster": "media/posters/A11-01.jpg",
+      "duration": 62.8,
+      "subtitle": "media/subtitles/A11-01.vtt",
+      "subtitleDownload": "media/subtitles/A11-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.2,
+          "title": "文件已经是 green，普通提交却保存了 blue。"
+        },
+        {
+          "start": 5.2,
+          "end": 11.0,
+          "title": "从初始 red 开始：它已经记入本地提交。"
+        },
+        {
+          "start": 11.0,
+          "end": 16.5,
+          "title": "把工作文件改成 blue 并保存，先改变的是当前文件。"
+        },
+        {
+          "start": 16.5,
+          "end": 22.3,
+          "title": "执行 add，选入的是此刻的 blue 内容。"
+        },
+        {
+          "start": 22.3,
+          "end": 27.8,
+          "title": "接着又改成 green，但这次没有再 add。"
+        },
+        {
+          "start": 27.8,
+          "end": 33.8,
+          "title": "普通 diff 比较当前文件和暂存内容：blue 变 green。"
+        },
+        {
+          "start": 33.8,
+          "end": 40.0,
+          "title": "另一种差异：最近提交的 red，选成了 blue。"
+        },
+        {
+          "start": 40.0,
+          "end": 45.8,
+          "title": "现在执行普通 commit，不加 -a，也不附文件路径。"
+        },
+        {
+          "start": 45.8,
+          "end": 51.5,
+          "title": "读回新提交是 blue；当前工作文件仍是 green。"
+        },
+        {
+          "start": 51.5,
+          "end": 57.3,
+          "title": "所以运行当前文件，也不能证明暂存的 blue 已经测过。"
+        },
+        {
+          "start": 57.3,
+          "end": 62.8,
+          "title": "提交记录的是选入的快照；这次操作也没有上传云端。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "552aa9e24d18ca60f5262fca3e994f79b4d8563d0c53ec059ace2bc9259adfe9"
+    },
+    {
+      "id": "A11-02",
+      "chapter": "A11",
+      "title": "两边从同一份文件修改，合并时到底在合什么？",
+      "knowledge": "合并冲突",
+      "url": "media/videos/A11-02.mp4",
+      "poster": "media/posters/A11-02.jpg",
+      "duration": 56.8,
+      "subtitle": "media/subtitles/A11-02.vtt",
+      "subtitleDownload": "media/subtitles/A11-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.2,
+          "title": "同一份起点，两边把同一行改成了不同内容。"
+        },
+        {
+          "start": 5.2,
+          "end": 11.1,
+          "title": "合并需要看共同起点，也要看两边分别改了什么。"
+        },
+        {
+          "start": 11.1,
+          "end": 16.9,
+          "title": "同一行被替成两个不同值，Git 无法替我们决定用哪一个。"
+        },
+        {
+          "start": 16.9,
+          "end": 22.5,
+          "title": "这次需求已经给定：发布用 blue，同时保留双方历史。"
+        },
+        {
+          "start": 22.5,
+          "end": 28.5,
+          "title": "编辑最终文件，只留下符合需求的一行 color=blue。"
+        },
+        {
+          "start": 28.5,
+          "end": 34.3,
+          "title": "检查这份最终内容，再记录一次合并提交。"
+        },
+        {
+          "start": 34.3,
+          "end": 40.0,
+          "title": "新提交记录最终文件，并把双方历史接起来。"
+        },
+        {
+          "start": 40.0,
+          "end": 45.8,
+          "title": "分支是随提交移动的名字，不是永久复制出的文件夹。"
+        },
+        {
+          "start": 45.8,
+          "end": 51.7,
+          "title": "不是同文件都必然冲突；本例特意修改了同一行。"
+        },
+        {
+          "start": 51.7,
+          "end": 56.8,
+          "title": "合并不是替人决定业务结果，而是把确认后的结果记进历史。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "c07fb24e862068472257822a55f35ff8c27ba9b2acae5cafbb4fb90bc6e0c543"
+    },
+    {
+      "id": "A12-01",
+      "chapter": "A12",
+      "title": "我这里能跑，换一个空目录为什么还不能算复现了？",
+      "knowledge": "重建验证",
+      "url": "media/videos/A12-01.mp4",
+      "poster": "media/posters/A12-01.jpg",
+      "duration": 57.7,
+      "subtitle": "media/subtitles/A12-01.vtt",
+      "subtitleDownload": "media/subtitles/A12-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.5,
+          "title": "空目录里有一个结果 2，还不能证明程序重新跑过。"
+        },
+        {
+          "start": 5.5,
+          "end": 11.2,
+          "title": "本片任务：每行去掉边缘空格，只数非空行。"
+        },
+        {
+          "start": 11.2,
+          "end": 16.9,
+          "title": "要复现，先确定是哪份源码、哪份输入、哪个运行条件。"
+        },
+        {
+          "start": 16.9,
+          "end": 22.8,
+          "title": "这个程序只用标准库；没有额外第三方包要安装。"
+        },
+        {
+          "start": 22.8,
+          "end": 28.9,
+          "title": "从指定提交建立新工作树，带上代码、输入和说明。"
+        },
+        {
+          "start": 28.9,
+          "end": 34.7,
+          "title": "为新目录建立运行环境，再核对实际解释器和入口。"
+        },
+        {
+          "start": 34.7,
+          "end": 40.6,
+          "title": "先确认新输出不存在，再运行同一入口。"
+        },
+        {
+          "start": 40.6,
+          "end": 46.3,
+          "title": "读回内容符合预期，同时留下提交和解释器身份。"
+        },
+        {
+          "start": 46.3,
+          "end": 52.1,
+          "title": "Git 干净，也不能排除目录里有被忽略的旧文件。"
+        },
+        {
+          "start": 52.1,
+          "end": 57.7,
+          "title": "同机重建证明的是这次条件，不等于所有电脑都能运行。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "ffe9ebcac39334cf3663b933b16361b5b0b4eadba31d51c9365e584d36113753"
+    },
+    {
+      "id": "A13-02",
+      "chapter": "A13",
+      "title": "新报告写到一半，怎样让旧报告仍然可用？",
+      "knowledge": "安全写出",
+      "url": "media/videos/A13-02.mp4",
+      "poster": "media/posters/A13-02.jpg",
+      "duration": 58.8,
+      "subtitle": "media/subtitles/A13-02.vtt",
+      "subtitleDownload": "media/subtitles/A13-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.7,
+          "title": "新报告写到一半失败，旧报告为什么也读不了了？"
+        },
+        {
+          "start": 5.7,
+          "end": 11.5,
+          "title": "内存里的新报告已算好，本片只看怎样交付成文件。"
+        },
+        {
+          "start": 11.5,
+          "end": 17.3,
+          "title": "直接用 w 打开正式目标时，旧内容就先被清空。"
+        },
+        {
+          "start": 17.3,
+          "end": 23.1,
+          "title": "换一条路径：先在同一目录写临时文件。"
+        },
+        {
+          "start": 23.1,
+          "end": 29.0,
+          "title": "把完整 JSON 写完并关闭，再进入替换步骤。"
+        },
+        {
+          "start": 29.0,
+          "end": 34.9,
+          "title": "成功替换之后，正式路径才指向新报告。"
+        },
+        {
+          "start": 34.9,
+          "end": 40.7,
+          "title": "如果临时写入失败，正式旧报告还没有被碰过。"
+        },
+        {
+          "start": 40.7,
+          "end": 46.8,
+          "title": "如果替换失败，要报告失败，并核对文件实际留下了什么。"
+        },
+        {
+          "start": 46.8,
+          "end": 52.8,
+          "title": "清理临时文件也可能失败，不能把原始写入错误盖掉。"
+        },
+        {
+          "start": 52.8,
+          "end": 58.8,
+          "title": "这个顺序保护正常替换前的旧文件，不是断电或并发的保证。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "f00bf3ee5dfeff90e49d6e95c00bd318f540a09c52ab8447706ae6db8be6be19"
+    },
+    {
+      "id": "B02-02",
+      "chapter": "B02",
+      "title": "输入格式正确，为什么仍不能修改，甚至最后返回500？",
+      "knowledge": "输入与输出校验",
+      "url": "media/videos/B02-02.mp4",
+      "poster": "media/posters/B02-02.jpg",
+      "duration": 62.9,
+      "subtitle": "media/subtitles/B02-02.vtt",
+      "subtitleDownload": "media/subtitles/B02-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.5,
+          "title": "把字号从 12 改成 14，输入正确也不保证能改。"
+        },
+        {
+          "start": 5.5,
+          "end": 11.3,
+          "title": "先按输入模型检查：字号必须是正整数。"
+        },
+        {
+          "start": 11.3,
+          "end": 17.0,
+          "title": "输入合法后，函数还要查有没有这个设置项。"
+        },
+        {
+          "start": 17.0,
+          "end": 22.8,
+          "title": "找到了 font，还要确认调用方拿的是当前版本。"
+        },
+        {
+          "start": 22.8,
+          "end": 28.1,
+          "title": "版本不匹配，本例用 409 提醒先重新读取。"
+        },
+        {
+          "start": 28.1,
+          "end": 33.6,
+          "title": "带上当前版本 2，再请求改为 14。"
+        },
+        {
+          "start": 33.6,
+          "end": 39.2,
+          "title": "函数把值改成 14，版本随之加到 3。"
+        },
+        {
+          "start": 39.2,
+          "end": 45.1,
+          "title": "输出模型只公布 value 和 version，隐藏内部备注。"
+        },
+        {
+          "start": 45.1,
+          "end": 51.2,
+          "title": "再看独立错误版：修改已做，却漏回必需的 value。"
+        },
+        {
+          "start": 51.2,
+          "end": 57.1,
+          "title": "输出校验可形成 500，但先前的内存修改不会自动撤销。"
+        },
+        {
+          "start": 57.1,
+          "end": 62.9,
+          "title": "这些状态码是本例的选择，不能只凭号码推断全部经过。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "c93b4b3efdeb781416b17776e2bde265ff451e54dabe81f9e079847bf66dc234"
+    },
+    {
+      "id": "B03-02",
+      "chapter": "B03",
+      "title": "timeout写了一秒，为什么整次调用可能超过一秒？",
+      "knowledge": "等待与总时限",
+      "url": "media/videos/B03-02.mp4",
+      "poster": "media/posters/B03-02.jpg",
+      "duration": 57.1,
+      "subtitle": "media/subtitles/B03-02.vtt",
+      "subtitleDownload": "media/subtitles/B03-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.4,
+          "title": "timeout 写了 1 秒，整次调用却可能超过 1 秒。"
+        },
+        {
+          "start": 5.4,
+          "end": 11.3,
+          "title": "HTTPX 的这个数值，限制的是不同位置的等待。"
+        },
+        {
+          "start": 11.3,
+          "end": 17.0,
+          "title": "等连接池空位，是 pool；建立连接的等待，是 connect。"
+        },
+        {
+          "start": 17.0,
+          "end": 22.7,
+          "title": "写出数据与等下一块回应，又分别有 write 和 read。"
+        },
+        {
+          "start": 22.7,
+          "end": 28.3,
+          "title": "看读取：第一块等了 0.8 秒，还没超过 1 秒。"
+        },
+        {
+          "start": 28.3,
+          "end": 33.9,
+          "title": "再等下一块，又用了 0.8 秒，也没超这次等待边界。"
+        },
+        {
+          "start": 33.9,
+          "end": 39.6,
+          "title": "两段合起来已有 1.6 秒，整个调用当然可能更久。"
+        },
+        {
+          "start": 39.6,
+          "end": 45.5,
+          "title": "换一次：读取期间连续超过阈值没有新数据，才触发 read 超时。"
+        },
+        {
+          "start": 45.5,
+          "end": 51.3,
+          "title": "客户端停止等，不代表远端已经停止处理。"
+        },
+        {
+          "start": 51.3,
+          "end": 57.1,
+          "title": "如果业务要求整件事限时，还需要单独控制总时间。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "7920afea0e9b53c6530f9a69202b174446f24811233c026abb89dcca55b87e7f"
+    },
+    {
+      "id": "B04-02",
+      "chapter": "B04",
+      "title": "同样是处理失败，究竟停在哪一次交接？",
+      "knowledge": "失败位置",
+      "url": "media/videos/B04-02.mp4",
+      "poster": "media/posters/B04-02.jpg",
+      "duration": 74.6,
+      "subtitle": "media/subtitles/B04-02.vtt",
+      "subtitleDownload": "media/subtitles/B04-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.7,
+          "title": "照片处理失败，先找最早停下的是哪一次交接。"
+        },
+        {
+          "start": 5.7,
+          "end": 11.6,
+          "title": "本例网站先核对照片编号，才能调用图片服务。"
+        },
+        {
+          "start": 11.6,
+          "end": 17.2,
+          "title": "编号没提供，输入处回 422，第二条请求不会开始。"
+        },
+        {
+          "start": 17.2,
+          "end": 22.7,
+          "title": "编号格式合格但目录里没有，查找处回 404。"
+        },
+        {
+          "start": 22.7,
+          "end": 28.4,
+          "title": "编号存在，网站才开始第二次请求。"
+        },
+        {
+          "start": 28.4,
+          "end": 34.2,
+          "title": "连接失败时，本例网站形成 503；对方收到没有仍要另查。"
+        },
+        {
+          "start": 34.2,
+          "end": 40.0,
+          "title": "读等待超时，本例形成 504；远端效果不能由超时确定。"
+        },
+        {
+          "start": 40.0,
+          "end": 45.6,
+          "title": "若图片服务明确回了 500，这是第二段已经有回应。"
+        },
+        {
+          "start": 45.6,
+          "end": 51.3,
+          "title": "网站按自己的合同，把这次失败形成外层 502。"
+        },
+        {
+          "start": 51.3,
+          "end": 57.1,
+          "title": "即使上游回 200，缺少 image_data 也不能继续。"
+        },
+        {
+          "start": 57.1,
+          "end": 62.9,
+          "title": "它也可能回 502，但日志要留下不同的内部原因。"
+        },
+        {
+          "start": 62.9,
+          "end": 68.8,
+          "title": "状态码是本例网站的选择，HTTP 库不会替它完成业务判断。"
+        },
+        {
+          "start": 68.8,
+          "end": 74.6,
+          "title": "成功取得图片，还要返回网页，才完成第一段交换。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "13174e5a7c0538012bf17604aa98796fb524502706ff57c1bc2ed63df5518cc4"
+    },
+    {
+      "id": "B04-03",
+      "chapter": "B04",
+      "title": "网页只看到一条请求，第二条到哪里找？",
+      "knowledge": "内部请求证据",
+      "url": "media/videos/B04-03.mp4",
+      "poster": "media/posters/B04-03.jpg",
+      "duration": 81.6,
+      "subtitle": "media/subtitles/B04-03.vtt",
+      "subtitleDownload": "media/subtitles/B04-03.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.6,
+          "title": "网页只点一次，网站内部还可能发出第二条请求。"
+        },
+        {
+          "start": 5.6,
+          "end": 11.6,
+          "title": "这次图片程序返回预制图片，用来验证交接，不是真实 AI 去背景。"
+        },
+        {
+          "start": 11.6,
+          "end": 17.4,
+          "title": "先在浏览器打开 Network，只跟踪这次操作的标记。"
+        },
+        {
+          "start": 17.4,
+          "end": 23.1,
+          "title": "这次使用一个新的请求标记，网站会把它传给下一段。"
+        },
+        {
+          "start": 23.1,
+          "end": 28.8,
+          "title": "点下处理，Network 里先看到网页发给网站的这一条。"
+        },
+        {
+          "start": 28.8,
+          "end": 34.8,
+          "title": "网站的 started 记录，只证明代码走到了发起位置。"
+        },
+        {
+          "start": 34.8,
+          "end": 40.8,
+          "title": "再看图片程序的 received，才能补上接收侧证据。"
+        },
+        {
+          "start": 40.8,
+          "end": 46.7,
+          "title": "图片结果先回网站；检查通过后，网站才回应网页。"
+        },
+        {
+          "start": 46.7,
+          "end": 52.4,
+          "title": "浏览器不在网站进程里，所以不会自动列出它内部发的请求。"
+        },
+        {
+          "start": 52.4,
+          "end": 58.4,
+          "title": "再用新标记，让图片程序明确返回 500。"
+        },
+        {
+          "start": 58.4,
+          "end": 64.3,
+          "title": "网站记下上游 500，向网页形成自己的 502。"
+        },
+        {
+          "start": 64.3,
+          "end": 70.1,
+          "title": "关联依靠同一标记和事件，不是猜两行日志挨得近。"
+        },
+        {
+          "start": 70.1,
+          "end": 76.0,
+          "title": "没有找到记录，先记作未知；不能直接说那一步没发生。"
+        },
+        {
+          "start": 76.0,
+          "end": 81.6,
+          "title": "浏览器看第一段，程序日志补第二段，合起来才能追完整。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "14c1bfcf894bdc865c9b9ee9dadb0ae812848f2a75782e8c7fc5e25a9910e6b8"
+    },
+    {
+      "id": "C01-01",
+      "chapter": "C01",
+      "title": "六件商品怎样变成推荐栏里的三件",
+      "knowledge": "筛选与排序",
+      "url": "media/videos/C01-01.mp4",
+      "poster": "media/posters/C01-01.jpg",
+      "duration": 50.5,
+      "subtitle": "media/subtitles/C01-01.vtt",
+      "subtitleDownload": "media/subtitles/C01-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.0,
+          "title": "六件商品，只推荐有货文具里最贵的三件。"
+        },
+        {
+          "start": 5.0,
+          "end": 10.0,
+          "title": "一行是一件商品；编号帮我们一路认出它。"
+        },
+        {
+          "start": 10.0,
+          "end": 15.5,
+          "title": "饼干不是文具，尺子没库存，都不进候选。"
+        },
+        {
+          "start": 15.5,
+          "end": 20.5,
+          "title": "按价格从高到低：12、12、8、5。"
+        },
+        {
+          "start": 20.5,
+          "end": 25.5,
+          "title": "同为12元，再按编号从小到大，次序才确定。"
+        },
+        {
+          "start": 25.5,
+          "end": 30.0,
+          "title": "最多取三件，橡皮合格，但排在第四。"
+        },
+        {
+          "start": 30.0,
+          "end": 35.0,
+          "title": "推荐栏只显示编号、名称和价格。"
+        },
+        {
+          "start": 35.0,
+          "end": 41.0,
+          "title": "SQL把这些决定写出来；不用背整行才能判断结"
+        },
+        {
+          "start": 41.0,
+          "end": 46.0,
+          "title": "没有排序，就不能保证拿到最贵三件。"
+        },
+        {
+          "start": 46.0,
+          "end": 50.5,
+          "title": "查询只取得答案。原表仍是六行。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "194bcac0c85be409b3a990d64f5d1501f6e7b3e5b59f8fd9256bf7d804587600"
+    },
+    {
+      "id": "C01-02",
+      "chapter": "C01",
+      "title": "三本书只知道两个价格，总价能说多少",
+      "knowledge": "未知值与统计",
+      "url": "media/videos/C01-02.mp4",
+      "poster": "media/posters/C01-02.jpg",
+      "duration": 39.0,
+      "subtitle": "media/subtitles/C01-02.vtt",
+      "subtitleDownload": "media/subtitles/C01-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.0,
+          "title": "三本书：30元、60元，第三本还没报价。"
+        },
+        {
+          "start": 5.0,
+          "end": 9.5,
+          "title": "数据库用NULL记这个未知；它不是免费0元。"
+        },
+        {
+          "start": 9.5,
+          "end": 14.0,
+          "title": "数书有三本；数已知价格，只有两个。"
+        },
+        {
+          "start": 14.0,
+          "end": 19.0,
+          "title": "30加60得到90，这是已知部分的合计。"
+        },
+        {
+          "start": 19.0,
+          "end": 24.0,
+          "title": "已知均价是90除以2，得到45。"
+        },
+        {
+          "start": 24.0,
+          "end": 29.0,
+          "title": "现在收到新报价：第三本确实免费。"
+        },
+        {
+          "start": 29.0,
+          "end": 34.0,
+          "title": "合计仍是90，但已知价格有三个，均价变成30"
+        },
+        {
+          "start": 34.0,
+          "end": 39.0,
+          "title": "这次总价能确认了。之前不能把未知悄悄当成零。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "d21bf699fd6ddda255c35c408146b238cd99ca105780fe2b6b386fb7f4b9f083"
+    },
+    {
+      "id": "C02-01",
+      "chapter": "C02",
+      "title": "日报怎样把今天零销售的店也留下",
+      "knowledge": "左连接与计数",
+      "url": "media/videos/C02-01.mp4",
+      "poster": "media/posters/C02-01.jpg",
+      "duration": 59,
+      "subtitle": "media/subtitles/C02-01.vtt",
+      "subtitleDownload": "media/subtitles/C02-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 6,
+          "title": "日报要列每家店当天卖了几笔，零笔也要出现。"
+        },
+        {
+          "start": 6,
+          "end": 12,
+          "title": "东店当天卖两笔；西店只在前一天卖过一笔。"
+        },
+        {
+          "start": 12,
+          "end": 17,
+          "title": "只保留成功配对的行，西店就消失了。"
+        },
+        {
+          "start": 17,
+          "end": 23,
+          "title": "左连接保留西店，右侧没有匹配就留空。"
+        },
+        {
+          "start": 23,
+          "end": 29,
+          "title": "日期放在匹配条件里，前一天的103不会配上。"
+        },
+        {
+          "start": 29,
+          "end": 38,
+          "title": "把日期移到WHERE：先配到昨天的103，再把它筛掉。"
+        },
+        {
+          "start": 38,
+          "end": 44,
+          "title": "把日期条件放回ON，再按门店编号分组。"
+        },
+        {
+          "start": 44,
+          "end": 49,
+          "title": "数真实销售编号：东店2笔，西店0笔。"
+        },
+        {
+          "start": 49,
+          "end": 54,
+          "title": "数所有结果行，会把西店的空占位也数成1。"
+        },
+        {
+          "start": 54,
+          "end": 59,
+          "title": "先想清“一行代表谁”，再决定配什么、数什么。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "ee9490d8f6eb105f19ddd955c12325d069ecf51c94d77ab01c9f2dee00c9d571"
+    },
+    {
+      "id": "C03-01",
+      "chapter": "C03",
+      "title": "一条购买明细保存前，谁负责挡住坏值",
+      "knowledge": "数据约束",
+      "url": "media/videos/C03-01.mp4",
+      "poster": "media/posters/C03-01.jpg",
+      "duration": 52.5,
+      "subtitle": "media/subtitles/C03-01.vtt",
+      "subtitleDownload": "media/subtitles/C03-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.5,
+          "title": "订单100要买商品10，两支笔。两个编号都已"
+        },
+        {
+          "start": 5.5,
+          "end": 10.5,
+          "title": "先确认这条连接启用了外键检查，读回值必须是1"
+        },
+        {
+          "start": 10.5,
+          "end": 15.5,
+          "title": "合法明细保存后读回：订单100、商品10、数"
+        },
+        {
+          "start": 15.5,
+          "end": 20.5,
+          "title": "换一份干净初态，把商品改成不存在的99。"
+        },
+        {
+          "start": 20.5,
+          "end": 25.5,
+          "title": "外键拒绝它，因为99没有对应商品；读回仍是零"
+        },
+        {
+          "start": 25.5,
+          "end": 31.5,
+          "title": "另一张表只写INTEGER，文字thirty"
+        },
+        {
+          "start": 31.5,
+          "end": 37.5,
+          "title": "所以数量约束还要要求：非空、存储为整数、而且"
+        },
+        {
+          "start": 37.5,
+          "end": 42.5,
+          "title": "同样的thirty进入这张受约束的明细表，会"
+        },
+        {
+          "start": 42.5,
+          "end": 47.5,
+          "title": "文字“2”可被转换成整数2；检查针对存下来的"
+        },
+        {
+          "start": 47.5,
+          "end": 52.5,
+          "title": "这些规则守住数据关系，还没有检查登录者是否有"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "2d3425fb211e81112871471fa3d972bd160fe1ffa94ff0573d2cc1ab1df58e53"
+    },
+    {
+      "id": "C05-01",
+      "chapter": "C05",
+      "title": "一个作者名字怎样成为结果和可追踪的日志",
+      "knowledge": "参数查询与日志",
+      "url": "media/videos/C05-01.mp4",
+      "poster": "media/posters/C05-01.jpg",
+      "duration": 51.5,
+      "subtitle": "media/subtitles/C05-01.vtt",
+      "subtitleDownload": "media/subtitles/C05-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.5,
+          "title": "书目里有三本书。现在按作者O'Neil查《远山》。"
+        },
+        {
+          "start": 5.5,
+          "end": 10.5,
+          "title": "查询结构先写好，作者名字作为参数单独交进去。"
+        },
+        {
+          "start": 10.5,
+          "end": 15.5,
+          "title": "名字里的引号是内容，不会截断这条查询。"
+        },
+        {
+          "start": 15.5,
+          "end": 20.5,
+          "title": "程序把结果整理为编号3、书名《远山》，交回调"
+        },
+        {
+          "start": 20.5,
+          "end": 26.0,
+          "title": "同次处理用r2关联日志：成功、1行，还有实际"
+        },
+        {
+          "start": 26.0,
+          "end": 31.0,
+          "title": "日志不记作者名字和输入全文，也能留下排查线索"
+        },
+        {
+          "start": 31.0,
+          "end": 36.0,
+          "title": "另一轮r3，改用不存在的列名，查询会失败。"
+        },
+        {
+          "start": 36.0,
+          "end": 41.0,
+          "title": "失败日志的行数是未知，不是“成功查到零本”。"
+        },
+        {
+          "start": 41.0,
+          "end": 46.5,
+          "title": "修好查询后，r4查一个不存在的作者：成功，零"
+        },
+        {
+          "start": 46.5,
+          "end": 51.5,
+          "title": "先看哪次处理、哪种结果，再决定排错位置。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "2d332809dda390954e85d3075b9302525ae1116ea1eb7fb60e953c0457dc36b1"
+    },
+    {
+      "id": "C06-01",
+      "chapter": "C06",
+      "title": "加了索引，怎样知道这次值得保留",
+      "knowledge": "索引取舍",
+      "url": "media/videos/C06-01.mp4",
+      "poster": "media/posters/C06-01.jpg",
+      "duration": 55.0,
+      "subtitle": "media/subtitles/C06-01.vtt",
+      "subtitleDownload": "media/subtitles/C06-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.0,
+          "title": "要找门店1最近三笔销售，答案必须先定清楚。"
+        },
+        {
+          "start": 5.0,
+          "end": 10.5,
+          "title": "按销售时间倒序，同一时刻再按编号倒序：6、4"
+        },
+        {
+          "start": 10.5,
+          "end": 16.0,
+          "title": "再加入十万条其他门店的销售，正确答案仍应一样"
+        },
+        {
+          "start": 16.0,
+          "end": 22.0,
+          "title": "先记录原查询计划，再在同一条件下多跑几次。"
+        },
+        {
+          "start": 22.0,
+          "end": 27.0,
+          "title": "现在只给门店编号加索引，然后重复同样的查询。"
+        },
+        {
+          "start": 27.0,
+          "end": 32.5,
+          "title": "逐列、逐行比较答案：仍是同样的6、4、3。"
+        },
+        {
+          "start": 32.5,
+          "end": 38.5,
+          "title": "计划可能改用索引找门店，但时间排序仍可能要另"
+        },
+        {
+          "start": 38.5,
+          "end": 44.5,
+          "title": "同条件七次读查询耗时"
+        },
+        {
+          "start": 44.5,
+          "end": 50.0,
+          "title": "单独查看文件空间成本"
+        },
+        {
+          "start": 50.0,
+          "end": 55.0,
+          "title": "用已知证据作有条件判断"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "5efb65a150e966045ac96005c0feaa3350a001d77e0b24829254a72f68f8b6b6"
+    },
+    {
+      "id": "D01-01",
+      "chapter": "D01",
+      "title": "查一本书失败，究竟是哪一段没交回来",
+      "knowledge": "外部依赖失败",
+      "url": "media/videos/D01-01.mp4",
+      "poster": "media/posters/D01-01.jpg",
+      "duration": 56,
+      "subtitle": "media/subtitles/D01-01.vtt",
+      "subtitleDownload": "media/subtitles/D01-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.5,
+          "title": "用户查图书B17能否借。本地程序还要向目录服"
+        },
+        {
+          "start": 5.5,
+          "end": 11,
+          "title": "先看合同：200、JSON、书号对上，可借标"
+        },
+        {
+          "start": 11,
+          "end": 15.5,
+          "title": "条件都满足，本地才把“可借”交给读者。"
+        },
+        {
+          "start": 15.5,
+          "end": 20.5,
+          "title": "缺少图书编号时，问题还在本地，外部调用是零次"
+        },
+        {
+          "start": 20.5,
+          "end": 25.5,
+          "title": "外部回了500：有回复，但合作方没交出成功结"
+        },
+        {
+          "start": 25.5,
+          "end": 30.5,
+          "title": "受控超时则表示没在等待范围内拿到完整成功结果"
+        },
+        {
+          "start": 30.5,
+          "end": 35.5,
+          "title": "即使是200，正文也可能不是JSON。"
+        },
+        {
+          "start": 35.5,
+          "end": 45.5,
+          "title": "JSON能读开，也可能给了别本书，或把真假值"
+        },
+        {
+          "start": 45.5,
+          "end": 50.5,
+          "title": "先找最早缺了哪份证据，再判断要不要重试。"
+        },
+        {
+          "start": 50.5,
+          "end": 56,
+          "title": "本地替身只验证程序分支，不证明真实网络或供应"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "cf3da3f791531ef9abbfbd2e327605bd1215d771ec74f8193596284ac8858c6d"
+    },
+    {
+      "id": "E02-01",
+      "chapter": "E02",
+      "title": "合法JSON为什么还不能成为可用分类",
+      "knowledge": "结构与事实",
+      "url": "media/videos/E02-01.mp4",
+      "poster": "media/posters/E02-01.jpg",
+      "duration": 53.0,
+      "subtitle": "media/subtitles/E02-01.vtt",
+      "subtitleDownload": "media/subtitles/E02-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.0,
+          "title": "这次要把反馈7整理成分类草稿，交给馆员核对。"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "约定四项：来源编号、分类、说明、是否需要人工"
+        },
+        {
+          "start": 11.0,
+          "end": 16.0,
+          "title": "这份候选能解析，字段类型也正确。"
+        },
+        {
+          "start": 16.0,
+          "end": 21.0,
+          "title": "编号要回到反馈7，说明也不能超出这条原文。"
+        },
+        {
+          "start": 21.0,
+          "end": 26.0,
+          "title": "只把false加上引号，它就变成文字，不是真"
+        },
+        {
+          "start": 26.0,
+          "end": 31.0,
+          "title": "只把编号改成反馈8，类型仍对，却指向了别条来"
+        },
+        {
+          "start": 31.0,
+          "end": 36.5,
+          "title": "只把说明改成“机器已修复”，前两关都能过。"
+        },
+        {
+          "start": 36.5,
+          "end": 42.0,
+          "title": "但原文没有修复证据，人工对照要拒绝这句或继续"
+        },
+        {
+          "start": 42.0,
+          "end": 48.0,
+          "title": "把复核标记设为true，只能表示待复核，不等"
+        },
+        {
+          "start": 48.0,
+          "end": 53.0,
+          "title": "格式让程序读得懂，依据让我们知道能信到哪里。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "e998378982bef3876f4616011b9b3c91a39ef4984e816fb39d6dc31096a6a855"
+    },
+    {
+      "id": "E03-01",
+      "chapter": "E03",
+      "title": "助手说错以后，下一轮还能保留哪些可靠内容",
+      "knowledge": "对话输入",
+      "url": "media/videos/E03-01.mp4",
+      "poster": "media/posters/E03-01.jpg",
+      "duration": 56.5,
+      "subtitle": "media/subtitles/E03-01.vtt",
+      "subtitleDownload": "media/subtitles/E03-01.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 5.0,
+          "title": "助手只负责收集机器位置与现象，不能宣布维修。"
+        },
+        {
+          "start": 5.0,
+          "end": 10.0,
+          "title": "用户先说“借书机显示离线”，这句话作为用户陈"
+        },
+        {
+          "start": 10.0,
+          "end": 15.0,
+          "title": "助手问位置；这句合格问题进入获准历史。"
+        },
+        {
+          "start": 15.0,
+          "end": 20.0,
+          "title": "用户再说“大厅入口左侧”，第二条事实也留下。"
+        },
+        {
+          "start": 20.0,
+          "end": 26.0,
+          "title": "本轮真正发出的，是任务、已有事实和获准历史。"
+        },
+        {
+          "start": 26.0,
+          "end": 31.0,
+          "title": "正常摘要把两句接起来：大厅入口左侧的借书机显"
+        },
+        {
+          "start": 31.0,
+          "end": 36.0,
+          "title": "现在回到第二轮起点，换成错误候选：“机器已修"
+        },
+        {
+          "start": 36.0,
+          "end": 41.5,
+          "title": "拒绝的是这条助手候选，不是用户已经提供的两句"
+        },
+        {
+          "start": 41.5,
+          "end": 47.0,
+          "title": "下一轮重新从可靠材料构造输入，不把错误承诺送"
+        },
+        {
+          "start": 47.0,
+          "end": 52.0,
+          "title": "屏幕再多一条通知，也不代表模型收到了它。"
+        },
+        {
+          "start": 52.0,
+          "end": 56.5,
+          "title": "要判断模型到底收到了什么，查实际输入。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "e628d74a8549b0fba5e0613b03c1d5f2f30ca19c014875fec54d4b6d9084d370"
+    },
+    {
+      "id": "E04-02",
+      "chapter": "E04",
+      "title": "引用没写错，回答为什么仍然不成立",
+      "knowledge": "引用核对",
+      "url": "media/videos/E04-02.mp4",
+      "poster": "media/posters/E04-02.jpg",
+      "duration": 48.5,
+      "subtitle": "media/subtitles/E04-02.vtt",
+      "subtitleDownload": "media/subtitles/E04-02.srt",
+      "scenes": [
+        {
+          "start": 0.0,
+          "end": 6.0,
+          "title": "本次实际资料只有R1：未逾期、无人预约，可续"
+        },
+        {
+          "start": 6.0,
+          "end": 12.0,
+          "title": "候选甲保留这四项，并引用R1。"
+        },
+        {
+          "start": 12.0,
+          "end": 17.0,
+          "title": "先查引用身份：R1确实在本次资料里。"
+        },
+        {
+          "start": 17.0,
+          "end": 22.5,
+          "title": "候选乙仍引用R1，却说“即使有人预约也能续借"
+        },
+        {
+          "start": 22.5,
+          "end": 28.0,
+          "title": "编号通过，但这句话不受原文支持，仍不能接受。"
+        },
+        {
+          "start": 28.0,
+          "end": 33.0,
+          "title": "候选丙文字正确，却引用没在本次取回的R9。"
+        },
+        {
+          "start": 33.0,
+          "end": 38.0,
+          "title": "没有引用，也不满足这次“有据回答”的约定。"
+        },
+        {
+          "start": 38.0,
+          "end": 43.5,
+          "title": "需要分别确认：这次有这份资料，这句话也确实得"
+        },
+        {
+          "start": 43.5,
+          "end": 48.5,
+          "title": "引用正确也不证明来源永远正确，更没有替用户执"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "b9930ad7e0dbf53413de0600fd86d41f62fe92d0be9f14a291d18ffce1d78393"
+    },
+    {
+      "id": "F02-01",
+      "chapter": "F02",
+      "title": "一个小网页的文件怎样进入镜像，何时才开始运行？",
+      "knowledge": "镜像构建",
+      "url": "media/videos/F02-01.mp4",
+      "poster": "media/posters/F02-01.jpg",
+      "duration": 59.0,
+      "subtitle": "media/subtitles/F02-01.vtt",
+      "subtitleDownload": "media/subtitles/F02-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "一个返回“早上好”的小网页，怎样装进运行模板？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "本次构建只读取选定目录里的文件。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "排除规则让假的.env不进入构建输入。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "先核对已有Python与依赖清单；本例只用标准库，不安装第三方包。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "再把程序复制到镜像里的/app，主机文件仍留在原处。"
+        },
+        {
+          "start": 29.0,
+          "end": 35.0,
+          "title": "工作目录与默认入口，写进镜像的运行约定。"
+        },
+        {
+          "start": 35.0,
+          "end": 40.0,
+          "title": "构建完成的是镜像，这时网页服务还没开始运行。"
+        },
+        {
+          "start": 40.0,
+          "end": 46.0,
+          "title": "启动容器后，才按入口启动这次服务进程。"
+        },
+        {
+          "start": 46.0,
+          "end": 52.0,
+          "title": "访问实际发布的地址，读到“早上好”才补上响应证据。"
+        },
+        {
+          "start": 52.0,
+          "end": 59.0,
+          "title": "文件、运行条件、启动入口和响应，要分别核对。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "a319f044ce8549f352e3a0bcc1e0865985cec86c4ae0f57897d9f02af460aed8"
+    },
+    {
+      "id": "F02-02",
+      "chapter": "F02",
+      "title": "改了问候语，为什么旧容器仍显示旧内容？",
+      "knowledge": "更新实例",
+      "url": "media/videos/F02-02.mp4",
+      "poster": "media/posters/F02-02.jpg",
+      "duration": 54.0,
+      "subtitle": "media/subtitles/F02-02.vtt",
+      "subtitleDownload": "media/subtitles/F02-02.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 6.0,
+          "title": "源码已经改成“晚上好”，旧网页为什么还说“早上好”？"
+        },
+        {
+          "start": 6.0,
+          "end": 11.0,
+          "title": "本例没有把源码目录挂进容器，旧实例不会直接读这次修改。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "重新构建，才把新内容装进另一个镜像身份。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "哪些步骤被复用，要看这次构建的实际输入与缓存输出。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "旧容器的Image仍指向I-old，所以请求仍读到旧问候。"
+        },
+        {
+          "start": 29.0,
+          "end": 35.0,
+          "title": "重启旧容器，通常仍按它原有的镜像和配置启动。"
+        },
+        {
+          "start": 35.0,
+          "end": 42.0,
+          "title": "用I-new创建新实例，才让这次运行读取新内容。"
+        },
+        {
+          "start": 42.0,
+          "end": 48.0,
+          "title": "如果只改发布端口，也要让新配置进入新实例。"
+        },
+        {
+          "start": 48.0,
+          "end": 54.0,
+          "title": "先说清改变的是文件、模板还是实例，再选构建、替换或重启。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "0a5da9142645307f7c53e7f97b222467e219a65f7a024384def96c7343a73d27"
+    },
+    {
+      "id": "F03-01",
+      "chapter": "F03",
+      "title": "浏览器、网页容器和天气容器里的 localhost 指向谁？",
+      "knowledge": "容器地址",
+      "url": "media/videos/F03-01.mp4",
+      "poster": "media/posters/F03-01.jpg",
+      "duration": 54.0,
+      "subtitle": "media/subtitles/F03-01.vtt",
+      "subtitleDownload": "media/subtitles/F03-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "同样写localhost，为什么请求会去不同的地方？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "浏览器在主机上，请求的是主机的localhost:18080。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "发布规则18080:8000，把请求送到网页容器的8000。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "本例用0.0.0.0:8000监听容器接口，接住转来的请求。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "页面需要天气，网页程序再发第二次请求。"
+        },
+        {
+          "start": 29.0,
+          "end": 35.0,
+          "title": "同一网络里，它用weather:9000找到天气容器。"
+        },
+        {
+          "start": 35.0,
+          "end": 41.0,
+          "title": "如果这里改成localhost:9000，箭头会折回网页容器自己。"
+        },
+        {
+          "start": 41.0,
+          "end": 47.0,
+          "title": "天气结果先回网页程序，它组好页面后才回浏览器。"
+        },
+        {
+          "start": 47.0,
+          "end": 54.0,
+          "title": "同一镜像可用启动配置分工；配置写好不等于这些请求已实测。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "e844ebbfa046a3946d7acc9e86af5272afd30a150325e21e3f97039837e294a0"
+    },
+    {
+      "id": "F05-02",
+      "chapter": "F05",
+      "title": "升级失败时，退回旧程序为什么不一定要恢复旧数据？",
+      "knowledge": "程序回退与数据",
+      "url": "media/videos/F05-02.mp4",
+      "poster": "media/posters/F05-02.jpg",
+      "duration": 48.0,
+      "subtitle": "media/subtitles/F05-02.vtt",
+      "subtitleDownload": "media/subtitles/F05-02.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "升级失败，是退回程序，还是把数据也退回去？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "第一种情况：只改了程序期望，数据库结构仍是1。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "若旧程序仍兼容当前库，可以只退回程序和对应配置。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "换回后再看运行身份、就绪和实际读写，不能只看启动成功。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "第二种情况：表已迁移，而且又新增了三条便条。"
+        },
+        {
+          "start": 29.0,
+          "end": 35.0,
+          "title": "直接覆盖旧备份，会把这三条从恢复结果里抹掉。"
+        },
+        {
+          "start": 35.0,
+          "end": 42.0,
+          "title": "先查兼容修复、受控逆迁移或补回新数据的条件，再选择。"
+        },
+        {
+          "start": 42.0,
+          "end": 48.0,
+          "title": "程序退回和数据恢复是两种动作，验收也必须分别覆盖。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "45544f182a24d81cda24503581ad1d20b3e2b9052dba88297d9d5781da97a148"
+    },
+    {
+      "id": "F06-01",
+      "chapter": "F06",
+      "title": "保存已经发生、验收却失败，下一位操作者怎样继续？",
+      "knowledge": "操作交接",
+      "url": "media/videos/F06-01.mp4",
+      "poster": "media/posters/F06-01.jpg",
+      "duration": 50.0,
+      "subtitle": "media/subtitles/F06-01.vtt",
+      "subtitleDownload": "media/subtitles/F06-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "联系人已保存，查询却断了，接手的人应该从哪里继续？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "先写清目标地址、程序身份、空库范围和等待上限。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "存活与就绪通过，只说明接下来可以尝试业务操作。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "创建请求R3返回了ID7，必须保存这次回应里的编号。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "随后R4查询连接失败，读回验收尚未完成。"
+        },
+        {
+          "start": 29.0,
+          "end": 36.0,
+          "title": "这个创建入口没有防重保护，整段重跑可能再建一个联系人。"
+        },
+        {
+          "start": 36.0,
+          "end": 43.0,
+          "title": "先用已有ID恢复查询，必要时在正确数据库只读核对。"
+        },
+        {
+          "start": 43.0,
+          "end": 50.0,
+          "title": "交接要留下已发生、仍未知、下一动作和停止范围。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "f01b9329b3b8518d8c02c5dc233c95533850e5b0e8c9a5d1ce991892cdd7d3be"
+    },
+    {
+      "id": "X02-01",
+      "chapter": "X02",
+      "title": "同样返回503，打印订单和配送各留下了什么？",
+      "knowledge": "失败后的状态",
+      "url": "media/videos/X02-01.mp4",
+      "poster": "media/posters/X02-01.jpg",
+      "duration": 67.0,
+      "subtitle": "media/subtitles/X02-01.vtt",
+      "subtitleDownload": "media/subtitles/X02-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "两次都返回503，下一步能完全一样吗？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "两组都要保存会议讲义3份，再请模拟配送方接单。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "甲在本地写入前被数据库锁挡住，还没开始配送。"
+        },
+        {
+          "start": 17.0,
+          "end": 24.0,
+          "title": "核对正确的库：0订单、0事件，下一编号仍17，外部调用0。"
+        },
+        {
+          "start": 24.0,
+          "end": 30.0,
+          "title": "乙已经保存P-17，配送方也已经保存D-81。"
+        },
+        {
+          "start": 30.0,
+          "end": 36.0,
+          "title": "它失败在第二笔本地事务，缺的是配送确认的记录。"
+        },
+        {
+          "start": 36.0,
+          "end": 43.0,
+          "title": "恢复乙，先核对原意图、原内容和对方去重合同。"
+        },
+        {
+          "start": 43.0,
+          "end": 49.0,
+          "title": "新的请求有新追踪号，但继续同一个配送意图。"
+        },
+        {
+          "start": 49.0,
+          "end": 55.0,
+          "title": "本例调用从1到2，配送效果仍只有D-81这一项。"
+        },
+        {
+          "start": 55.0,
+          "end": 61.0,
+          "title": "确认再落到本地，读回后才结束这次恢复。"
+        },
+        {
+          "start": 61.0,
+          "end": 67.0,
+          "title": "若查不到结果、也没有可靠防重条件，先保留未知，交有权人员核实。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "58ec055110b808758748b753b05c90fa78f0c0614ede4033216d8a4e1effacb9"
+    },
+    {
+      "id": "X03-01",
+      "chapter": "X03",
+      "title": "两次都返回P-17，怎样确认没有多建订单或配送？",
+      "knowledge": "防重证据",
+      "url": "media/videos/X03-01.mp4",
+      "poster": "media/posters/X03-01.jpg",
+      "duration": 55.0,
+      "subtitle": "media/subtitles/X03-01.vtt",
+      "subtitleDownload": "media/subtitles/X03-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "两次都返回P-17，怎样确认真的没有多建？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "R1与R2是不同请求，共用同一次创建意图和相同内容。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "R1完成订单P-17和配送D-81，并把结果收束保存。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "R2同键同内容，直接读回这份已保存结果。"
+        },
+        {
+          "start": 23.0,
+          "end": 30.0,
+          "title": "还要核对订单一行、创建事件一条，字段仍然是3份。"
+        },
+        {
+          "start": 30.0,
+          "end": 36.0,
+          "title": "模拟配送的调用和效果都保持1，才能补上这一层证据。"
+        },
+        {
+          "start": 36.0,
+          "end": 42.0,
+          "title": "再用旧键改成4份，本例合同应拒绝，而不是偷偷改原订单。"
+        },
+        {
+          "start": 42.0,
+          "end": 48.0,
+          "title": "待确认的恢复可能再调用一次，不能套用这次成功重放的计数。"
+        },
+        {
+          "start": 48.0,
+          "end": 55.0,
+          "title": "进程内测试、真实端口和日志，各自证明不同范围。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "a2b19ad1c54f7f2ab0050673be58623544b87edf1929b89a64122bc9db40f1aa"
+    },
+    {
+      "id": "X04-01",
+      "chapter": "X04",
+      "title": "配送服务已经设成失败，为什么打印测试还是成功？",
+      "knowledge": "故障测试路径",
+      "url": "media/videos/X04-01.mp4",
+      "poster": "media/posters/X04-01.jpg",
+      "duration": 48.0,
+      "subtitle": "media/subtitles/X04-01.vtt",
+      "subtitleDownload": "media/subtitles/X04-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "配送已经设成失败，打印测试为什么还是成功？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "先恢复起点：P-17和D-81已完成，原创建意图已有收束结果。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "再次使用旧意图，应用直接读回，不会再请求配送。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "换一个请求追踪号，也不会自动变成新的业务意图。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "要测配送失败，先建立能真正走到它的独立实验。"
+        },
+        {
+          "start": 29.0,
+          "end": 35.0,
+          "title": "新意图送入新实验，核对它确实到达故障方。"
+        },
+        {
+          "start": 35.0,
+          "end": 42.0,
+          "title": "按本例约定，订单保留，配送留下人工处理状态和原因。"
+        },
+        {
+          "start": 42.0,
+          "end": 48.0,
+          "title": "看开关、返回码还不够，要看当次路径和真实留下的状态。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "fc4d816b136d3874f48a212493038d569a7d6a6df8ccadea8ba19b294d66f1f8"
+    },
+    {
+      "id": "X04-02",
+      "chapter": "X04",
+      "title": "恢复打印订单备份，为什么配送回执没有一起退回？",
+      "knowledge": "跨系统恢复",
+      "url": "media/videos/X04-02.mp4",
+      "poster": "media/posters/X04-02.jpg",
+      "duration": 51.0,
+      "subtitle": "media/subtitles/X04-02.vtt",
+      "subtitleDownload": "media/subtitles/X04-02.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 6.0,
+          "title": "恢复了订单备份，配送回执为什么没有一起退回？"
+        },
+        {
+          "start": 6.0,
+          "end": 13.0,
+          "title": "备份时，P-17已保存，但配送仍待确认。"
+        },
+        {
+          "start": 13.0,
+          "end": 19.0,
+          "title": "备份以后，配送方在自己的库保存了D-81。"
+        },
+        {
+          "start": 19.0,
+          "end": 25.0,
+          "title": "把应用备份恢复到新目标，只会恢复这份应用数据。"
+        },
+        {
+          "start": 25.0,
+          "end": 31.0,
+          "title": "先只读核对旧字段和意图，不在验证读回时顺带请求配送。"
+        },
+        {
+          "start": 31.0,
+          "end": 38.0,
+          "title": "核实旧配送，继续用delivery:P-17查询或按约定重放。"
+        },
+        {
+          "start": 38.0,
+          "end": 44.0,
+          "title": "如果要新建下一单，还要查原环境后来占用了哪些编号和键。"
+        },
+        {
+          "start": 44.0,
+          "end": 51.0,
+          "title": "清理这个恢复副本，也不会撤销共享配送方的新增效果。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "6476e277fb1caad96753e449324ad5427689db67a8d96959c2eff249ffb9ba15"
+    },
+    {
+      "id": "X04-03",
+      "chapter": "X04",
+      "title": "打印服务已经ready，为什么新版本仍不能交付？",
+      "knowledge": "就绪与验收",
+      "url": "media/videos/X04-03.mp4",
+      "poster": "media/posters/X04-03.jpg",
+      "duration": 52,
+      "subtitle": "media/subtitles/X04-03.vtt",
+      "subtitleDownload": "media/subtitles/X04-03.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "打印服务已经ready，新版本为什么仍不能交付？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "本例ready只查数据库读取和结构版本，没有执行创建订单。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "合法的会议讲义3份请求，在意图事务前命中程序错误。"
+        },
+        {
+          "start": 17.0,
+          "end": 24.0,
+          "title": "还要核对订单、事件、编号和配送效果都没有变化。"
+        },
+        {
+          "start": 24.0,
+          "end": 30.0,
+          "title": "已知没有数据迁移，旧程序与当前结构仍兼容。"
+        },
+        {
+          "start": 30.0,
+          "end": 36.0,
+          "title": "保留失败版本身份，再换回精确旧程序和配置。"
+        },
+        {
+          "start": 36.0,
+          "end": 46,
+          "title": "核对运行身份，再完成同一创建意图、成功重放和独立读回。"
+        },
+        {
+          "start": 46,
+          "end": 52,
+          "title": "健康检查帮助定位，能否交付仍取决于承诺的任务是否成立。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "227a7269fdefb046e23d5ab0cefeda801da999825be8eee5a17d8d1d3329f7c6"
+    },
+    {
+      "id": "P01-01",
+      "chapter": "P01",
+      "title": "图书预约马上回复了，读者为什么仍等不到取书通知？",
+      "knowledge": "服务完整经过",
+      "url": "media/videos/P01-01.mp4",
+      "poster": "media/posters/P01-01.jpg",
+      "duration": 49.0,
+      "subtitle": "media/subtitles/P01-01.vtt",
+      "subtitleDownload": "media/subtitles/P01-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "图书预约马上回复，读者为什么仍等不到取书通知？"
+        },
+        {
+          "start": 5.0,
+          "end": 12.0,
+          "title": "记录显示：9点预约，9点10分回执，9点15分转书库。"
+        },
+        {
+          "start": 12.0,
+          "end": 18.0,
+          "title": "书库11点才开始查找，11点20分找到后仍等出库。"
+        },
+        {
+          "start": 18.0,
+          "end": 24.0,
+          "title": "把回执提前到9点，只直接改变“知道已收到”的时间。"
+        },
+        {
+          "start": 24.0,
+          "end": 31.0,
+          "title": "明确由谁承接、何时再更新，能减少读者不知道进展的部分。"
+        },
+        {
+          "start": 31.0,
+          "end": 37.0,
+          "title": "如果主要限制是书库资源，才需要查找那一段的证据。"
+        },
+        {
+          "start": 37.0,
+          "end": 43.0,
+          "title": "先确认读者缺的是回应、可信进展，还是实际取书能力。"
+        },
+        {
+          "start": 43.0,
+          "end": 49.0,
+          "title": "下一步取得能改变判断的记录，再决定试什么。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "210a5d3ee27ed374e2bf9194979e10236a7c6554419ba7434624fa4861d81902"
+    },
+    {
+      "id": "P03-01",
+      "chapter": "P03",
+      "title": "从投诉箱选出 25 件，为什么不能说 60% 的订单都延迟？",
+      "knowledge": "样本与结论",
+      "url": "media/videos/P03-01.mp4",
+      "poster": "media/posters/P03-01.jpg",
+      "duration": 48.0,
+      "subtitle": "media/subtitles/P03-01.vtt",
+      "subtitleDownload": "media/subtitles/P03-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "从投诉箱选了25件，能说60%的订单都延迟吗？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "这25件先经过“进入投诉箱、又被选中”两道筛选。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "15份提到延迟，6份提到说明不清，4份材料不足。"
+        },
+        {
+          "start": 17.0,
+          "end": 22.0,
+          "title": "15除以25等于60%，只描述这批被选投诉材料。"
+        },
+        {
+          "start": 22.0,
+          "end": 28.0,
+          "title": "把60%贴到全部800笔上，跨过了没有证据的那一步。"
+        },
+        {
+          "start": 28.0,
+          "end": 34.0,
+          "title": "“大家嫌发货慢”是客服意见，还要和具体记录分开。"
+        },
+        {
+          "start": 34.0,
+          "end": 41.0,
+          "title": "增加同类投诉样本，也不会自动消除这个选择偏差。"
+        },
+        {
+          "start": 41.0,
+          "end": 48.0,
+          "title": "要判断总体延迟，应核对全量物流记录或设计清楚的抽样。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "f4352d833dfe72ceed0099f1b5d7e823e0ab5001290664d772feefcbd8b91521"
+    },
+    {
+      "id": "P04-01",
+      "chapter": "P04",
+      "title": "会议室申请发出后，谁能说预约已经成立？",
+      "knowledge": "角色与决定权",
+      "url": "media/videos/P04-01.mp4",
+      "poster": "media/posters/P04-01.jpg",
+      "duration": 48.0,
+      "subtitle": "media/subtitles/P04-01.vtt",
+      "subtitleDownload": "media/subtitles/P04-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "会议室申请已经发出，谁能说预约成立了？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "本例规定：管理员核对当前占用并确认，预约才成立。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "前台收到再转发，只证明表单走到了下一环节。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "管理员当时查到空位，这是一个有时间点的信息。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "员工选择这个时段，表达了偏好，还不是管理员确认。"
+        },
+        {
+          "start": 29.0,
+          "end": 36.0,
+          "title": "管理员重新检查：若仍可用，才把确认和占用落定。"
+        },
+        {
+          "start": 36.0,
+          "end": 42.0,
+          "title": "若发现冲突，应拒绝或协商；超时则提醒，不自动批准。"
+        },
+        {
+          "start": 42.0,
+          "end": 48.0,
+          "title": "办完之前，先问正在讨论哪一步，以及谁还需要行动。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "6eab6e9aef2f2eb3e9ed7cbf87f447797fc499f3f4b72793d068380f71ce5f60"
+    },
+    {
+      "id": "P04-02",
+      "chapter": "P04",
+      "title": "取消一场活动，已经发生的餐费和布置怎样处理？",
+      "knowledge": "取消后的状态",
+      "url": "media/videos/P04-02.mp4",
+      "poster": "media/posters/P04-02.jpg",
+      "duration": 43.0,
+      "subtitle": "media/subtitles/P04-02.vtt",
+      "subtitleDownload": "media/subtitles/P04-02.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "活动说取消，已经订的场地、餐饮和布置会自动消失吗？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "取消要求先改变计划，不会替三个外部所有者撤销记录。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "另一场还没下单的活动，只需停止尚未发生的安排。"
+        },
+        {
+          "start": 17.0,
+          "end": 24.0,
+          "title": "当前活动要分别核对场地退订、餐饮协商和人员停止。"
+        },
+        {
+          "start": 24.0,
+          "end": 30.0,
+          "title": "退多少、是否收费，要看具体约定；材料没给就保留未知。"
+        },
+        {
+          "start": 30.0,
+          "end": 36.0,
+          "title": "布置停止后，还要安排物品、现场和未完成工作的去向。"
+        },
+        {
+          "start": 36.0,
+          "end": 43.0,
+          "title": "记录各项处理结果与遗留责任，才能判断哪一范围已经结束。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "459c68f6fe821608f092806dce35320bbc1f9470dd56807e6174b6f60a19f29f"
+    },
+    {
+      "id": "P05-01",
+      "chapter": "P05",
+      "title": "一份印前核对用了38分钟，为什么只占8人分钟？",
+      "knowledge": "经过时间与投入",
+      "url": "media/videos/P05-01.mp4",
+      "poster": "media/posters/P05-01.jpg",
+      "duration": 50.0,
+      "subtitle": "media/subtitles/P05-01.vtt",
+      "subtitleDownload": "media/subtitles/P05-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 6.0,
+          "title": "一份印前核对经过38分钟，为什么只用了8人分钟？"
+        },
+        {
+          "start": 6.0,
+          "end": 13.0,
+          "title": "本例甲连续整理3分钟，等30分钟，乙连续复核5分钟。"
+        },
+        {
+          "start": 13.0,
+          "end": 19.0,
+          "title": "经过时间是3加30加5，一共38分钟。"
+        },
+        {
+          "start": 19.0,
+          "end": 24.0,
+          "title": "人工投入只加3和5，合计8人分钟。"
+        },
+        {
+          "start": 24.0,
+          "end": 30.0,
+          "title": "两人同时工作6分钟，经过6分钟，却投入12人分钟。"
+        },
+        {
+          "start": 30.0,
+          "end": 37.0,
+          "title": "若甲改成1分钟，而等待仍固定30分钟，完成会变成36分钟。"
+        },
+        {
+          "start": 37.0,
+          "end": 44.0,
+          "title": "若乙固定9点33分才开始，甲提前也仍到9点38分完成。"
+        },
+        {
+          "start": 44.0,
+          "end": 50.0,
+          "title": "先看下游怎样开始，再判断局部省下的时间会不会传到终点。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "00088e804e56282794b5ca863fe79eaf6c321d547dfe45cd35483110e92e96af"
+    },
+    {
+      "id": "P05-02",
+      "chapter": "P05",
+      "title": "每张证明只办 5 分钟，为什么有人要等 15 分钟？",
+      "knowledge": "排队与产能",
+      "url": "media/videos/P05-02.mp4",
+      "poster": "media/posters/P05-02.jpg",
+      "duration": 42.0,
+      "subtitle": "media/subtitles/P05-02.vtt",
+      "subtitleDownload": "media/subtitles/P05-02.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "每张证明只办5分钟，为什么丁还要先等15分钟？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "给定9点同时到达，按甲乙丙丁顺序，连续办理且没有插队。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "甲9点开始，乙9点5分开始，等待分别是0和5分钟。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "丙等10分钟，丁等15分钟；丁要到9点20分才办完。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "换一组条件：四份每隔5分钟到达，办理速度仍相同。"
+        },
+        {
+          "start": 29.0,
+          "end": 35.0,
+          "title": "这次都能到达就开始，但四份总工作仍是20分钟。"
+        },
+        {
+          "start": 35.0,
+          "end": 42.0,
+          "title": "真实窗口还有波动和其他任务，要先查实际到达与资源占用。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "a02b36459fd4b2b9ff3756c42f3e017609c2743fa1efca1f418b634f896234b5"
+    },
+    {
+      "id": "P07-01",
+      "chapter": "P07",
+      "title": "每月少做 20 小时，为什么还不能说省了 2000 元？",
+      "knowledge": "节省时间与收益",
+      "url": "media/videos/P07-01.mp4",
+      "poster": "media/posters/P07-01.jpg",
+      "duration": 49.0,
+      "subtitle": "media/subtitles/P07-01.vtt",
+      "subtitleDownload": "media/subtitles/P07-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "每月少做20小时，为什么还不能说省了2000元？"
+        },
+        {
+          "start": 5.0,
+          "end": 12.0,
+          "title": "假设全部适用且都采用，400乘3分钟，得到20小时。"
+        },
+        {
+          "start": 12.0,
+          "end": 18.0,
+          "title": "按100元每小时折算，得到2000元工时价值。"
+        },
+        {
+          "start": 18.0,
+          "end": 24.0,
+          "title": "如果工资和加班支出没变，账户不会因此自动少付2000元。"
+        },
+        {
+          "start": 24.0,
+          "end": 30.0,
+          "title": "若只有一半采用，释放的是10小时，订阅仍每月1200元。"
+        },
+        {
+          "start": 30.0,
+          "end": 37.0,
+          "title": "时间可以用来处理积压，也可能减少付费加班，但不能重复相加。"
+        },
+        {
+          "start": 37.0,
+          "end": 43.0,
+          "title": "新增维护和返工还会占时间，没测到就先保留未知。"
+        },
+        {
+          "start": 43.0,
+          "end": 49.0,
+          "title": "是否值得，要比较同一期间的现金、维护负担和客户结果。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "f25ac93f8021e7270de76f11249f887ec98b2cbac0c5c5c3e52134286989b73d"
+    },
+    {
+      "id": "P07-02",
+      "chapter": "P07",
+      "title": "本月赚了 2000 元，账户余额为什么反而减少？",
+      "knowledge": "利润与现金",
+      "url": "media/videos/P07-02.mp4",
+      "poster": "media/posters/P07-02.jpg",
+      "duration": 47.0,
+      "subtitle": "media/subtitles/P07-02.vtt",
+      "subtitleDownload": "media/subtitles/P07-02.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "本月赚了2000元，账户为什么反而少了4000元？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "已确认收入15000元，本月费用13000元，利润是2000元。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "客户这个月只付9000元，费用13000元却都已支付。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "现金净减少4000元，期初8000元就剩4000元。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "没有收到的6000元，是这笔业务尚待收回的应收款。"
+        },
+        {
+          "start": 29.0,
+          "end": 35.0,
+          "title": "下月仅收回这6000元，现金增加，应收减少。"
+        },
+        {
+          "start": 35.0,
+          "end": 41.0,
+          "title": "同一笔已确认收入，不能因为到账又算一次。"
+        },
+        {
+          "start": 41.0,
+          "end": 47.0,
+          "title": "这个算例没有税、折旧、借款等其他事项，真实账目要按实际范围核对。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "cd49c4ce6d7910903caa661a5ef714f76a40b121c455e2ec20190361d798c5ad"
+    },
+    {
+      "id": "P08-02",
+      "chapter": "P08",
+      "title": "库存页面刚刷新，为什么不能说库存刚核实？",
+      "knowledge": "信息新鲜度",
+      "url": "media/videos/P08-02.mp4",
+      "poster": "media/posters/P08-02.jpg",
+      "duration": 42.0,
+      "subtitle": "media/subtitles/P08-02.vtt",
+      "subtitleDownload": "media/subtitles/P08-02.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "页面刚刷新，库存真的刚核实过吗？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "15点是页面读取时间，昨天18点才是仓库核实时间。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "客户15点05分要确认今晚取用，旧记录未必还能支撑承诺。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "可以先明确“截至何时”，再请店员核对，而不是装成实时库存。"
+        },
+        {
+          "start": 23.0,
+          "end": 30.0,
+          "title": "实时接入也只是候选，还要核对来源更新、失败处理和维护成本。"
+        },
+        {
+          "start": 30.0,
+          "end": 36.0,
+          "title": "多久算过期，要看用途和错误代价，不能随便统一成几秒。"
+        },
+        {
+          "start": 36.0,
+          "end": 42.0,
+          "title": "先说清谁核实什么、何时核实，再写能验收的页面承诺。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "ba03bc012ea497ad07cb8e41984707eaeb95e77707faeb59511674c3f9e75961"
+    },
+    {
+      "id": "P09-01",
+      "chapter": "P09",
+      "title": "取件页面怎样让人看懂：东西到了，还是已经能领？",
+      "knowledge": "业务规则",
+      "url": "media/videos/P09-01.mp4",
+      "poster": "media/posters/P09-01.jpg",
+      "duration": 48.0,
+      "subtitle": "media/subtitles/P09-01.vtt",
+      "subtitleDownload": "media/subtitles/P09-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "包裹到了，为什么这个页面还不能让人判断要不要出发？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "“物流完成”太笼统，到站并不等于已经可以领。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "改成“已到站，分拣中，等可领取通知”，直接接上行动。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "15点只是预计再更新，不把它写成保证取件时间。"
+        },
+        {
+          "start": 23.0,
+          "end": 29.0,
+          "title": "订阅后的反馈，只说明订阅已保存，不说明包裹已就绪。"
+        },
+        {
+          "start": 29.0,
+          "end": 35.0,
+          "title": "输入格式不对，指出哪一处要改，并保留其他输入。"
+        },
+        {
+          "start": 35.0,
+          "end": 42.0,
+          "title": "连接中断时结果可能未知，先查询订阅状态，不直接说没有保存。"
+        },
+        {
+          "start": 42.0,
+          "end": 48.0,
+          "title": "纸面原型先验证理解；键盘、读屏和真实送达还要在实现中验证。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "b3af82c5d69fe29101c9ad76eef122c7d61335a743fca73989877d24dc9240c3"
+    },
+    {
+      "id": "P10-01",
+      "chapter": "P10",
+      "title": "原型看起来容易用，是用户懂了，还是任务偷偷给了答案？",
+      "knowledge": "原型与真实能力",
+      "url": "media/videos/P10-01.mp4",
+      "poster": "media/posters/P10-01.jpg",
+      "duration": 45.0,
+      "subtitle": "media/subtitles/P10-01.vtt",
+      "subtitleDownload": "media/subtitles/P10-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 6.0,
+          "title": "原型看起来容易用，是用户懂了，还是题目偷偷告诉了答案？"
+        },
+        {
+          "start": 6.0,
+          "end": 12.0,
+          "title": "如果说“请找到尚不可领取提示”，已经把关键答案给出去了。"
+        },
+        {
+          "start": 12.0,
+          "end": 19.0,
+          "title": "换成：“十分钟后要出门，判断是否顺路取件，并说明下一步。”"
+        },
+        {
+          "start": 19.0,
+          "end": 25.0,
+          "title": "先记录第一次反应，再追问理由；不要马上把人带回正确按钮。"
+        },
+        {
+          "start": 25.0,
+          "end": 32.0,
+          "title": "模拟的两种卡点不同：误把到站当可领，或不知道等到哪里更新。"
+        },
+        {
+          "start": 32.0,
+          "end": 38.0,
+          "title": "人工递换页面，可以检验这段体验，却不能证明后台已经能做。"
+        },
+        {
+          "start": 38.0,
+          "end": 45.0,
+          "title": "是否继续，要看当前最大未知有没有被证据改变，而不是听到一句“挺好”。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "69768aeb69633de4aa9d5940d68a66496a6040fe00bde9b76ea1563d18081626"
+    },
+    {
+      "id": "P11-01",
+      "chapter": "P11",
+      "title": "新系统暂停了，已经进来的报修由谁继续处理？",
+      "knowledge": "停止与交接",
+      "url": "media/videos/P11-01.mp4",
+      "poster": "media/posters/P11-01.jpg",
+      "duration": 50.0,
+      "subtitle": "media/subtitles/P11-01.vtt",
+      "subtitleDownload": "media/subtitles/P11-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "新系统暂停了，已经进来的报修由谁继续处理？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "先停新的自动发送，已有事项和责任不能一起清空。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "已承接的，核对维修员当前进展；无承接记录的，先查实际情况。"
+        },
+        {
+          "start": 17.0,
+          "end": 24.0,
+          "title": "外包是否派人未知时，先查原安排，不能再派一遍求保险。"
+        },
+        {
+          "start": 24.0,
+          "end": 31.0,
+          "title": "本例由宿管说明进展，维修值班负责人核实承接，试行负责人决定入口恢复。"
+        },
+        {
+          "start": 31.0,
+          "end": 37.0,
+          "title": "还要看旧表是否仍被重复填写，系统打开不等于工作已经改善。"
+        },
+        {
+          "start": 37.0,
+          "end": 44.0,
+          "title": "恢复前修复同步，并用一条受控事项验证流转和读回。"
+        },
+        {
+          "start": 44.0,
+          "end": 50.0,
+          "title": "入口恢复，也不会让外包的未知自动消失；未决事项继续跟踪。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "4c67ad9562edf79580de38e150cc091360a8c39966023809edf4a84409d5277e"
+    },
+    {
+      "id": "P13-01",
+      "chapter": "P13",
+      "title": "能读到快递状态以后，系统就能替客户安排配送吗？",
+      "knowledge": "可追溯的选择",
+      "url": "media/videos/P13-01.mp4",
+      "poster": "media/posters/P13-01.jpg",
+      "duration": 49.0,
+      "subtitle": "media/subtitles/P13-01.vtt",
+      "subtitleDownload": "media/subtitles/P13-01.srt",
+      "scenes": [
+        {
+          "start": 0,
+          "end": 5.0,
+          "title": "能读到快递状态，系统就能替客户改约配送吗？"
+        },
+        {
+          "start": 5.0,
+          "end": 11.0,
+          "title": "接口给出承接状态、来源和更新时间，没有司机当前路线。"
+        },
+        {
+          "start": 11.0,
+          "end": 17.0,
+          "title": "也没有替客户确认改约的授权，读取成功不能补上这项权限。"
+        },
+        {
+          "start": 17.0,
+          "end": 23.0,
+          "title": "可以先展示可核实的进展，并把未知交给指定客服。"
+        },
+        {
+          "start": 23.0,
+          "end": 30.0,
+          "title": "若后来发现状态每天只同步一次，就不能继续叫“当前实时进度”。"
+        },
+        {
+          "start": 30.0,
+          "end": 36.0,
+          "title": "即使后来能读路线，确认改约仍要另核当前条件和授权。"
+        },
+        {
+          "start": 36.0,
+          "end": 43.0,
+          "title": "如果事实没人持续维护，继续人工、先改更新安排或暂不开发都可能合理。"
+        },
+        {
+          "start": 43.0,
+          "end": 49.0,
+          "title": "可负责的方案，把事实、权限、行为、接续人和结果证据连成一条线。"
+        }
+      ],
+      "narration": false,
+      "captionNote": "短字幕已在画面中；另附字幕文件供下载。",
+      "sha256": "192cca3b2402ce729062ce6978ea5acd00d6572c9d83673cd108e1af6e4b02a8"
     }
   ],
-  "readingNote": "正文保留原教材的解释与代码。D:\\FDE-Lab 等路径是教学示例，不指向作者电脑。视频用于看清一个问题，不替代整章。",
+  "readingNote": "正文保留完整解释；视频围绕一个具体问题帮助看清变化。当前共有79支问题片，可按章节或知识点选择，不要求全部观看。",
   "mapAtlas": "media/maps/atlas.pdf"
 }

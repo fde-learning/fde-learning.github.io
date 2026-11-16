@@ -179,7 +179,7 @@ class Audit:
         catalog = self.read("data/catalog.json")
         if not catalog:
             return self.result()
-        for key, count in (("books", 9), ("chapters", 59), ("videos", 31)):
+        for key, count in (("books", 9), ("chapters", 59), ("videos", 79)):
             values = catalog.get(key, [])
             self.check(len(values) == count, key + "_expected_count", "catalog")
             ids = [row.get("id") for row in values]
@@ -277,7 +277,7 @@ class Audit:
                     self.check(path.stat().st_size == row.get("bytes"), "manifest_bytes", row["path"])
             media = {p.relative_to(self.site).as_posix() for p in files if p.is_relative_to(self.site / "media")}
             self.check(media <= set(names), "all_media_allowlisted", "manifest")
-            self.check(len([p for p in media if p.endswith(".mp4")]) == 31, "exact_public_video_count", "manifest")
+            self.check(len([p for p in media if p.endswith(".mp4")]) == 79, "exact_public_video_count", "manifest")
 
         if self.pdf_scan:
             try:

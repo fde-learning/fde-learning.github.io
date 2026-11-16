@@ -1,3 +1,5 @@
+import {searchCatalog} from './search.js';
+
 const main = document.querySelector('#main');
 const search = document.querySelector('#search');
 const esc = (value = '') => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -76,12 +78,14 @@ function chapterRow(c) {
   return `<li class="chapter-row"><a href="${chapterHref(c.id)}"><span class="chapter-number">${esc(c.id)}</span><span><strong>${esc(c.title)}</strong><small>${c.videos.length?`${c.videos.length} 支相关视频 · `:''}${c.aids.some(a=>a.kind==='memory')?'记忆表 · ':''}${c.maps?.length||c.aids.some(a=>a.kind==='map')?'关系图':''}</small></span><span class="row-arrow" aria-hidden="true">→</span></a></li>`;
 }
 function renderHome() {
-  const last=readStore('fde-last-opened');const resume=last&&chapters.get(last.id);
-  const featured=['B04-01','D04-01','P06-01'].map(id=>videos.get(id)).filter(Boolean);
+  const last=readStore('fde-last-opened');
+  const resume=last&&(last.kind==='video'?videos.get(last.id):chapters.get(last.id));
+  const resumeHref=resume?(last.kind==='video'?videoHref(resume.id):chapterHref(resume.id,last.section?'?section='+encodeURIComponent(last.section):last.tab&&last.tab!=='text'?'?tab='+last.tab:'')):chapterHref('00');
+  const featured=['A03-01','B04-03','P06-01'].map(id=>videos.get(id)).filter(Boolean);
   main.innerHTML=`<div class="page home">
-    <section class="hero"><div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> FDE · 技术与产品学习</p><h1>把系统看明白，<br>把判断做扎实。</h1><p class="hero-lead">从一段程序开始，理解接口、数据、AI 与交付怎样连接。用具体问题建立知识，再回到真实结果作判断。</p><div class="hero-actions"><a class="button primary" href="${chapterHref(resume?resume.id:'00')}">${resume?'继续上次阅读':'从这里开始'} <span>→</span></a><a class="button quiet" href="#/videos">先看一个视频 ${arrow}</a></div>${resume?`<p class="resume-note">最近打开：${esc(resume.id)} · ${esc(resume.title)}<br><span>仅记住本机位置，不代表已经掌握。</span></p>`:''}</div>
+    <section class="hero"><div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> FDE · 技术与产品学习</p><h1>把系统看明白，<br>把判断做扎实。</h1><p class="hero-lead">从一段程序开始，理解接口、数据、AI 与交付怎样连接。用具体问题建立知识，再回到真实结果作判断。</p><div class="hero-actions"><a class="button primary" href="${resumeHref}">${resume?'继续上次打开的内容':'从这里开始'} <span>→</span></a><a class="button quiet" href="#/videos">挑一个问题看视频 ${arrow}</a></div>${resume?`<p class="resume-note">最近打开：${esc(resume.knowledge||resume.id)} · ${esc(resume.title)}<br><span>仅记住本机位置，不代表已经掌握。</span></p>`:''}</div>
     <div class="hero-art" aria-label="看清事实，理解机制，检验结果"><div class="diagram-caption">从问题到可用的理解</div><div class="art-row"><span class="art-index">01</span><div><b>看见对象</b><small>输入与当前事实</small></div><span class="art-symbol">↘</span></div><div class="art-row art-offset"><span class="art-index">02</span><div><b>跟住变化</b><small>机制与责任交接</small></div><span class="art-symbol">⇄</span></div><div class="art-row art-final"><span class="art-index">03</span><div><b>核对结果</b><small>证据与下一步判断</small></div><span class="art-symbol">✓</span></div><div class="diagram-foot">理解 · 实践 · 查回</div></div></section>
-    <section class="start-band"><div><strong>第一次来？只选一条路。</strong><p>顺着教材读；需要看变化时打开视频，忘记时再查表和图。</p></div><a href="#/about">了解材料怎样配合 ${arrow}</a></section>
+    <section class="start-band"><div><strong>从当前想弄懂的问题开始。</strong><p>可以顺着教材读，也可以只看一支独立视频；忘记时再查表和图。</p></div><a href="#/about">了解材料怎样配合 ${arrow}</a></section>
     <section class="section"><div class="section-heading"><div><p class="eyebrow">学习路线</p><h2>先连起技术，再走向业务判断</h2></div><a class="text-link" href="#/library">完整目录 →</a></div><div class="book-grid">${data.books.filter(b=>b.id!=='00').map(b=>`<a class="book-card book-${b.id}" href="#/library?book=${b.id}"><span class="book-symbol" aria-hidden="true">${bookIcons[b.id]}</span><div class="book-card-top"><span>${b.id} 册</span><span>${b.chapters.length} 章</span></div><h3>${esc(b.title)}</h3><p>${esc(bookDescriptions[b.id]||b.summary)}</p><span class="book-go" aria-hidden="true">↗</span></a>`).join('')}</div></section>
     <section class="section"><div class="section-heading"><div><p class="eyebrow">把变化看清楚</p><h2>从一个完整问题开始</h2></div><a class="text-link" href="#/videos">全部 ${data.videos.length} 支视频 →</a></div><div class="video-grid">${featured.map(videoCard).join('')}</div></section>
     ${footer()}</div>`;
@@ -91,8 +95,13 @@ function renderLibrary(params) {
   main.innerHTML=`<div class="page">${pageHead('教材目录','一步一步，连接整套系统','正文可以直接在线阅读，也可以下载原册 PDF。技术路线从 00 开始，产品与业务放在技术之后。')}<div class="filter-bar">${bookSelect(selected,'library')}<span>9 册 · 59 章</span></div><div class="book-sections">${shown.map(b=>`<section class="book-section"><div class="book-section-head"><span class="large-code">${esc(b.id)}</span><div><h2>${esc(b.title)}</h2><p>${esc(bookDescriptions[b.id]||b.summary)}</p>${b.guide?`<a class="text-link book-guide" href="#/guide/${b.id}">本册导读与查用 →</a>`:''}</div>${fileLink('整册 PDF',b.pdf,'button quiet')}</div><ol class="chapter-list">${b.chapters.map(id=>chapterRow(chapters.get(id))).join('')}</ol></section>`).join('')}</div>${footer()}</div>`;
 }
 function renderVideos(params) {
-  const selected=params.get('book')||'all';const list=data.videos.filter(v=>selected==='all'||chapters.get(v.chapter).book===selected);
-  main.innerHTML=`<div class="page">${pageHead('视频讲解','看清一个问题怎样发生','音乐、音效和短字幕，无旁白。按当前疑问选一支，随后回到同一章节；不需要把所有材料重复学一遍。')}<div class="filter-bar">${bookSelect(selected,'videos')}<span>${list.length} 支可观看</span></div><div class="video-grid">${list.map(videoCard).join('')}</div>${footer()}</div>`;
+  const selected=books.has(params.get('book'))?params.get('book'):'all',q=(params.get('q')||'').trim();
+  const matches=q?searchCatalog(data,new Map(),q).videos:data.videos;
+  const chapterOrder=new Map(data.chapters.map((c,i)=>[c.id,i]));
+  const list=matches.filter(v=>selected==='all'||chapters.get(v.chapter).book===selected);
+  if(!q)list.sort((a,b)=>chapterOrder.get(a.chapter)-chapterOrder.get(b.chapter)||a.id.localeCompare(b.id));
+  main.innerHTML=`<div class="page">${pageHead('视频讲解','挑一个现在想弄懂的问题','每支自带例子，讲清原因、变化和结果。音乐＋音效＋短字幕，无旁白；不要求全部看完。')}<form id="video-search-form" class="video-search"><label for="video-query">找知识点或问题</label><div><input id="video-query" type="search" value="${esc(q)}" placeholder="例如：提交哪份、第二条请求、备份" autocomplete="off"><button class="button primary" type="submit">查找</button></div></form><div class="filter-bar">${bookSelect(selected,'videos')}<span role="status">${list.length} 支可观看</span></div>${list.length?`<div class="video-grid">${list.map(videoCard).join('')}</div>`:`<div class="empty"><h2>暂时没有匹配的视频</h2><p>换一个短词，或清除筛选再找。</p><a class="button quiet" href="#/videos">查看全部视频 →</a></div>`}${footer()}</div>`;
+  document.querySelector('#video-search-form').addEventListener('submit',e=>{e.preventDefault();const next=new URLSearchParams();if(selected!=='all')next.set('book',selected);const query=document.querySelector('#video-query').value.trim();if(query)next.set('q',query);location.hash='/videos'+(next.size?'?'+next:'');});
 }
 function renderResources(params) {
   const selected=params.get('book')||'all';const list=data.chapters.filter(c=>(selected==='all'||c.book===selected)&&(c.aids.length||c.maps?.length));
@@ -108,19 +117,16 @@ async function renderSupplement(id,kind,params,token) {
 }
 async function renderSearch(params,token) {
   const q=(params.get('q')||'').trim();search.value=q;
-  if(!searchIndex){const response=await fetch('./data/search-index.json');if(!response.ok)throw new Error('Search index unavailable');searchIndex=new Map((await response.json()).chapters.map(c=>[c.id,c.text]));}
+  if(!searchIndex){const response=await fetch('./data/search-index.json',{cache:'no-cache'});if(!response.ok)throw new Error('Search index unavailable');searchIndex=new Map((await response.json()).chapters.map(c=>[c.id,c.text]));}
   if(token!==renderId)return;
   const terms=q.toLocaleLowerCase().split(/\s+/).filter(Boolean);
-  const matches=text=>terms.length&&terms.every(t=>text.toLocaleLowerCase().includes(t));
-  const shortText=c=>[c.id,c.title,books.get(c.book).title,...c.videos.map(id=>videos.get(id)?.knowledge||'')].join(' ');
-  const cs=data.chapters.filter(c=>matches(shortText(c)+' '+(searchIndex.get(c.id)||''))).sort((a,b)=>Number(matches(shortText(b)))-Number(matches(shortText(a))));
-  const vs=data.videos.filter(v=>matches(`${v.id} ${v.title} ${v.knowledge} ${v.chapter}`));
-  const searchRow=c=>{const text=searchIndex.get(c.id)||'',index=text.toLowerCase().indexOf(terms[0]),snippet=index>=0?text.slice(Math.max(0,index-25),index+105):'';return `<li class="chapter-row"><a href="${chapterHref(c.id)}"><span class="chapter-number">${c.id}</span><span><strong>${esc(c.title)}</strong>${snippet?`<p class="search-snippet">${index>25?'…':''}${esc(snippet)}…</p>`:''}</span><span class="row-arrow" aria-hidden="true">→</span></a></li>`;};
+  const result=searchCatalog(data,searchIndex,q),cs=result.chapters,vs=result.videos;
+  const searchRow=c=>{const text=searchIndex.get(c.id)||'',needle=terms[0]||'',index=text.toLowerCase().indexOf(needle),snippet=needle&&index>=0?text.slice(Math.max(0,index-25),index+105):'';return `<li class="chapter-row"><a href="${chapterHref(c.id)}"><span class="chapter-number">${c.id}</span><span><strong>${esc(c.title)}</strong>${snippet?`<p class="search-snippet">${index>25?'…':''}${esc(snippet)}…</p>`:''}</span><span class="row-arrow" aria-hidden="true">→</span></a></li>`;};
   main.innerHTML=`<div class="page">${pageHead('搜索结果',q?`“${q}”`:'找一个知识点或问题',`${cs.length} 个章节 · ${vs.length} 支视频`)}${!cs.length&&!vs.length?'<div class="empty"><h2>暂时没有找到</h2><p>试试更短的词，例如“请求”“保存”“重试”，或者直接输入章号 A11。</p><a class="button primary" href="#/library">查看教材目录 →</a></div>':''}${cs.length?`<section class="section"><h2>相关章节</h2><ol class="chapter-list search-results">${cs.map(searchRow).join('')}</ol></section>`:''}${vs.length?`<section class="section"><h2>相关视频</h2><div class="video-grid">${vs.map(videoCard).join('')}</div></section>`:''}${footer()}</div>`;
 }
 async function chapterContent(c) {
   if(!contentCache.has(c.id)) {
-    const response=await fetch('./'+c.content);if(!response.ok)throw new Error('章节正文暂时无法加载');
+    const response=await fetch('./'+c.content,{cache:'no-cache'});if(!response.ok)throw new Error('章节正文暂时无法加载');
     contentCache.set(c.id,await response.json());
   }return contentCache.get(c.id);
 }
@@ -134,10 +140,10 @@ async function renderChapter(id,params,token) {
   if(tab==='video')panel=related.length?`<div class="panel-intro"><h2>本章的视频</h2><p>视频讲一个具体问题，完整范围仍看正文。</p></div><div class="video-grid chapter-videos">${related.map(videoCard).join('')}</div>`:'<div class="empty"><h2>本章暂时没有独立视频</h2><p>可以先沿正文的具体例子学习。</p><a href="'+chapterHref(id)+'">回到正文 →</a></div>';
   else if(tab==='map')panel=c.maps?.length?`<div class="panel-intro"><h2>本章关系图</h2><p>先看当前对象，再沿连线看它交给谁。点击图片可在新页放大。</p></div>${c.maps.map(m=>`<figure class="map-figure"><figcaption><strong>${esc(m.label)}</strong>${m.pdf?fileLink('下载 PDF',m.pdf):''}</figcaption><a href="./${esc(m.url)}" target="_blank" rel="noopener" aria-label="放大${esc(m.label)}"><img src="./${esc(m.url)}" alt="${esc(m.label)}" loading="lazy"></a></figure>`).join('')}`:`<div class="empty"><p>本章关系图可通过 PDF 查看。</p>${c.aids.filter(a=>a.kind==='map').map(a=>fileLink(a.label,a.url,'button quiet')).join('')}</div>`;
   else if(tab==='memory')panel=`<div class="panel-intro"><h2>章节记忆与查用</h2><p>找重点、看短用法；忘记原因时回到正文。英文名用于查找，不是背诵清单。</p></div>${c.aids.filter(a=>a.kind==='memory').map(a=>`<div class="download-panel"><span class="download-icon">▤</span><div><h3>${esc(c.id)} · 章节记忆表</h3><p>保留原来的排版，可阅读或下载。</p></div>${fileLink('打开 PDF',a.url,'button primary')}</div>`).join('')||'<p>本章没有单独的记忆表，直接回正文查阅即可。</p>'}`;
-  else panel=`<article class="reading-content">${content.html}</article>`;
+  else panel=`${content.toc.length?`<details class="mobile-toc"><summary>本章定位</summary><nav aria-label="本章小节">${content.toc.filter(h=>h.level<=3).map(h=>`<a href="${chapterHref(id,'?section='+encodeURIComponent(h.id))}">${esc(h.text)}</a>`).join('')}</nav></details>`:''}<article class="reading-content">${content.html}</article>`;
   const tabs=[['text','正文'],...(related.length?[['video',`视频 · ${related.length}`]]:[]),...(c.aids.some(a=>a.kind==='memory')?[['memory','记忆表']]:[]),...(c.maps?.length||c.aids.some(a=>a.kind==='map')?[['map','关系图']]:[])];
   main.innerHTML=`<div class="reader-page">${breadcrumb([{text:b.title,url:`#/library?book=${b.id}`},{text:c.id}])}<div class="reader-heading"><div><p class="eyebrow">${esc(c.id)} · ${esc(b.title)}</p><h1>${esc(c.title)}</h1></div>${fileLink('查看原册 PDF',`${c.pdf}#page=${c.pdfPage}`,'button quiet')}</div><nav class="chapter-tabs" aria-label="本章材料">${tabs.map(([t,label])=>`<a href="${chapterHref(id,t==='text'?'':'?tab='+t)}" ${t===tab?'aria-current="page"':''}>${label}</a>`).join('')}</nav><div class="reader-layout"><div class="reader-body">${panel}<nav class="chapter-pager" aria-label="相邻章节">${prev?`<a href="${chapterHref(prev.id)}"><small>← 上一章 · ${prev.id}</small><strong>${esc(prev.title)}</strong></a>`:'<span></span>'}${next?`<a href="${chapterHref(next.id)}"><small>下一章 · ${next.id} →</small><strong>${esc(next.title)}</strong></a>`:''}</nav></div><aside class="local-toc" aria-label="本章定位"><p>${tab==='text'?'本章内容':'继续学习'}</p>${tab==='text'?`<nav>${content.toc.filter(h=>h.level<=3).map(h=>`<a class="toc-level-${h.level}" href="${chapterHref(id,'?section='+encodeURIComponent(h.id))}">${esc(h.text)}</a>`).join('')}</nav>`:`<a href="${chapterHref(id)}">回到本章正文 →</a>`}${related.length&&tab!=='video'?`<div class="toc-related"><p>看变化</p>${related.map(v=>`<a href="${videoHref(v.id)}">▷ ${esc(v.knowledge)} <small>${minutes(v.duration)}</small></a>`).join('')}</div>`:''}</aside></div></div>`;
-  writeStore('fde-last-opened',{id:c.id});
+  writeStore('fde-last-opened',{kind:'chapter',id:c.id,tab,section:params.get('section')||null});
   main.querySelectorAll('.reading-content pre').forEach(pre=>{
     if(!pre.querySelector('code'))return;const button=document.createElement('button');button.type='button';button.className='copy-code';button.textContent='复制';button.setAttribute('aria-label','复制这段代码');
     button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(pre.querySelector('code').textContent);button.textContent='已复制';setTimeout(()=>button.textContent='复制',1500);}catch{toast('请选中这段代码后复制。');}});pre.append(button);
@@ -152,10 +158,10 @@ function renderVideo(id) {
     player.currentTime=Number(button.dataset.seek);player.play().catch(()=>toast('点击视频的播放按钮即可继续。'));
   }));
   player.addEventListener('error',()=>toast('视频暂时无法载入，可尝试下载后观看。'));
-  writeStore('fde-last-opened',{id:c.id});
+  writeStore('fde-last-opened',{kind:'video',id:v.id});
 }
 function renderAbout() {
-  main.innerHTML=`<div class="page narrow">${pageHead('使用说明','材料按需要用，学习由问题推进','这是一套自编的技术与产品学习资料。目标是理解机制、使用证据、形成判断，不是完成一张观看清单。')}<div class="about-prose"><h2>第一次从哪里开始</h2><p>先读 <a href="${chapterHref('00')}">00 · 从这里开始</a>，再沿 A → B → C → D → E → F → X 学习技术；产品与业务 P01–P13 放在后面，也可以在有具体业务问题时单独查阅。</p><h2>四种材料，分工不同</h2><dl class="material-roles"><div><dt>教材正文</dt><dd>沿完整例子学习，解释原因、条件和失败位置。</dd></div><div><dt>视频</dt><dd>看清对象、动态变化和交接。讲一个完整问题，不覆盖整章。</dd></div><div><dt>记忆表</dt><dd>忘记重点和短用法时查回，不要求先背完。</dd></div><div><dt>关系图</dt><dd>概念混在一起时，查看位置、上下级与连线。</dd></div></dl><h2>也可以请 AI 带着学</h2><p>把当前章的正文或 PDF 交给你使用的 AI，再告诉它你卡在哪里。网站本身不连接 AI，也不会读取作者的个人进度。</p><blockquote>请结合这一章带我学。先说明对象和当前问题，让我看见具体变化，再解释术语；一次推进一段完整关系。不要把复制命令、看完视频或一句“懂了”当成掌握。</blockquote><h2>关于记录和隐私</h2><p>网站不要求注册，不收集学习记录。最近打开的章节只保存在当前浏览器，换设备不会同步，也不会自动标记学完。</p><button class="button quiet" id="clear-position" type="button">清除本机阅读位置</button><h2>内容与使用边界</h2><p>正文来自当前自编教材；公开视频为已经制作的 31 支基础片。示意动画、合成例子与实际运行证据的范围以材料内说明为准。教材中的 Windows 路径是练习示例，不代表你的电脑已经配置好。</p><p>网页只调整呈现与导航，原册 PDF 可随时打开。配套运行环境需要在自己的电脑准备；遇到涉及真实账号、业务数据或部署的操作，应先核对自己的条件。</p><p>这是个人学习项目，与参考课程或工具厂商没有隶属关系。官方资料引用保留在相应教材中。</p></div>${footer()}</div>`;
+  main.innerHTML=`<div class="page narrow">${pageHead('使用说明','材料按需要用，学习由问题推进','这是一套自编的技术与产品学习资料。目标是理解机制、使用证据、形成判断，不是完成一张观看清单。')}<div class="about-prose"><h2>第一次从哪里开始</h2><p>先读 <a href="${chapterHref('00')}">00 · 从这里开始</a>，再沿 A → B → C → D → E → F → X 学习技术；产品与业务 P01–P13 放在后面，也可以在有具体业务问题时单独查阅。</p><h2>四种材料，分工不同</h2><dl class="material-roles"><div><dt>教材正文</dt><dd>沿完整例子学习，解释原因、条件和失败位置。</dd></div><div><dt>视频</dt><dd>看清对象、动态变化和交接。讲一个完整问题，不覆盖整章。</dd></div><div><dt>记忆表</dt><dd>忘记重点和短用法时查回，不要求先背完。</dd></div><div><dt>关系图</dt><dd>概念混在一起时，查看位置、上下级与连线。</dd></div></dl><h2>也可以请 AI 带着学</h2><p>把当前章的正文或 PDF 交给你使用的 AI，再告诉它你卡在哪里。网站本身不连接 AI，也不会读取作者的个人进度。</p><blockquote>请结合这一章带我学。先说明对象和当前问题，让我看见具体变化，再解释术语；一次推进一段完整关系。不要把复制命令、看完视频或一句“懂了”当成掌握。</blockquote><h2>关于记录和隐私</h2><p>网站不要求注册，不收集学习记录。最近打开的章节只保存在当前浏览器，换设备不会同步，也不会自动标记学完。</p><button class="button quiet" id="clear-position" type="button">清除本机阅读位置</button><h2>内容与使用边界</h2><p>正文来自当前自编教材；公开视频按当前入口提供79支问题片，可按章节或问题选择。示意动画、合成例子与实际运行证据的范围以材料内说明为准。教材中的 Windows 路径是练习示例，不代表你的电脑已经配置好。</p><p>网页只调整呈现与导航，原册 PDF 可随时打开。配套运行环境需要在自己的电脑准备；遇到涉及真实账号、业务数据或部署的操作，应先核对自己的条件。</p><p>这是个人学习项目，与参考课程或工具厂商没有隶属关系。官方资料引用保留在相应教材中。</p></div>${footer()}</div>`;
   document.querySelector('#clear-position').addEventListener('click',()=>{try{localStorage.removeItem('fde-last-opened');toast('本机阅读位置已清除。');}catch{toast('当前浏览器未保存阅读位置。');}});
 }
 function footer(){return '<footer class="site-footer"><span>FDE · 技术与产品学习</span><span>由问题出发，让理解落到可核对的结果。</span><a href="#/about">使用说明</a></footer>';}
@@ -178,7 +184,7 @@ async function route() {
     else if(!kind)renderHome();else renderNotFound();
     if(token!==renderId)return;
     document.title=(main.querySelector('h1')?.textContent.replace(/\s+/g,' ').trim()||'把系统看明白')+' · FDE 学习站';
-    main.querySelectorAll('[data-filter-route]').forEach(el=>el.addEventListener('change',()=>location.hash=`/${el.dataset.filterRoute}${el.value==='all'?'':'?book='+el.value}`));
+    main.querySelectorAll('[data-filter-route]').forEach(el=>el.addEventListener('change',()=>{const next=new URLSearchParams(params);if(el.value==='all')next.delete('book');else next.set('book',el.value);location.hash=`/${el.dataset.filterRoute}${next.size?'?'+next:''}`;}));
     main.focus({preventScroll:true});
   }catch(error){main.innerHTML=`<div class="page empty"><h1>这页暂时没有加载成功</h1><p>请刷新后重试，或先打开原册 PDF。</p>${chapter?fileLink('打开原册 PDF',chapter.pdf,'button primary'):''}<a class="button quiet" href="#/">返回首页</a></div>`;console.error(error);}
 }
@@ -186,5 +192,6 @@ try {
   const catalogUrl='./data/catalog.json'+(publicationRevision?'?v='+encodeURIComponent(publicationRevision):'');
   const response=await fetch(catalogUrl,{cache:'no-cache'});if(!response.ok)throw new Error('Cannot load catalog');data=await response.json();
   books=new Map(data.books.map(b=>[b.id,b]));chapters=new Map(data.chapters.map(c=>[c.id,c]));videos=new Map(data.videos.map(v=>[v.id,v]));
+  document.querySelector('#video-count').textContent=String(data.videos.length);
   window.addEventListener('hashchange',route);await route();
 }catch(error){main.innerHTML='<div class="page empty"><h1>学习资料暂时没有加载成功</h1><p>请确认通过网站地址打开，然后刷新重试。</p><a class="button primary" href="./media/books/00.pdf">先阅读起始 PDF →</a></div>';console.error(error);}
