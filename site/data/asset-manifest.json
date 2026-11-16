@@ -378,7 +378,7 @@
     },
     {
       "path": "data/catalog.json",
-      "sha256": "005ca992da6c07d273862fbc2b133bb179c21b70b64bf9e5eb61ac4b8e69a955",
+      "sha256": "48ba7b291a92f24cf52e0c635b1845fcb5ed221f1cc06fe27f8cea59915afe91",
       "bytes": 224199
     },
     {
@@ -1768,8 +1768,8 @@
     },
     {
       "path": "media/posters/P05-02.jpg",
-      "sha256": "b25a5a27600cc6fcf9dbcf04ff52b90df52267a7bb4d571fdc450387b502aec1",
-      "bytes": 17905
+      "sha256": "1b41c754f875bb41db28ef5b81b1c8eb78888438c3f540969c9cfa3c38a1ca5b",
+      "bytes": 17906
     },
     {
       "path": "media/posters/P06-01.jpg",
@@ -2233,13 +2233,13 @@
     },
     {
       "path": "media/subtitles/D02-01.srt",
-      "sha256": "4aed971c3dbb46e54201ad75225a81fc2297e5bbe7d5910dc38c8dc9b171548a",
-      "bytes": 1024
+      "sha256": "565ebc8e4308d8e71bce360bc66b04fd76572ddc4f599d03135709016af0286d",
+      "bytes": 1041
     },
     {
       "path": "media/subtitles/D02-01.vtt",
-      "sha256": "fc72bfbe49a681513c808ed7afdda3b6126c426c67dfa03dd54ee22a656e7508",
-      "bytes": 1034
+      "sha256": "160427aa19a8dc9280224d8aa85dee6e80b0ad5e5dbc53b9dcb5b940861e2afa",
+      "bytes": 1051
     },
     {
       "path": "media/subtitles/D03-01.srt",
@@ -2953,8 +2953,8 @@
     },
     {
       "path": "media/videos/P05-02.mp4",
-      "sha256": "a02b36459fd4b2b9ff3756c42f3e017609c2743fa1efca1f418b634f896234b5",
-      "bytes": 2506647
+      "sha256": "b1ea185b49d8da13ec496bde7dc37408dca8fe28da32071f113658b9eec56b19",
+      "bytes": 2463798
     },
     {
       "path": "media/videos/P06-01.mp4",
